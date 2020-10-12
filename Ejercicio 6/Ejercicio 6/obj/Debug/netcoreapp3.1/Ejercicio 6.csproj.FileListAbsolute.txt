@@ -11,3 +11,16 @@ C:\Users\Fernández\Documents\C#\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1
 C:\Users\Fernández\Documents\C#\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.dll
 C:\Users\Fernández\Documents\C#\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.pdb
 C:\Users\Fernández\Documents\C#\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.genruntimeconfig.cache
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.csprojAssemblyReference.cache
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.AssemblyInfoInputs.cache
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.AssemblyInfo.cs
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.csproj.CoreCompileInputs.cache
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.dll
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.pdb
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\bin\Debug\netcoreapp3.1\Ejercicio 6.exe
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\bin\Debug\netcoreapp3.1\Ejercicio 6.deps.json
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\bin\Debug\netcoreapp3.1\Ejercicio 6.runtimeconfig.json
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\bin\Debug\netcoreapp3.1\Ejercicio 6.runtimeconfig.dev.json
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\bin\Debug\netcoreapp3.1\Ejercicio 6.dll
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\bin\Debug\netcoreapp3.1\Ejercicio 6.pdb
+C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 6\Ejercicio 6\obj\Debug\netcoreapp3.1\Ejercicio 6.genruntimeconfig.cache
