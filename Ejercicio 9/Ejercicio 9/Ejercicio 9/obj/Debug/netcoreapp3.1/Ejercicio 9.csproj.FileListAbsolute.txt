@@ -10,3 +10,4 @@ C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejer
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.dll
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.pdb
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.genruntimeconfig.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.csprojAssemblyReference.cache
