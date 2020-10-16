@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj": {}
+    "C:\\Users\\carlo\\source\\repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj": {
+    "C:\\Users\\carlo\\source\\repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj",
         "projectName": "Ejercicio 7",
-        "projectPath": "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj",
-        "packagesPath": "C:\\Users\\Fernández\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\source\\repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\Ejercicio 7.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\source\\repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 7\\Ejercicio 7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Fernández\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

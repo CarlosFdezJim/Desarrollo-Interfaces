@@ -1,0 +1,13 @@
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.deps.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.runtimeconfig.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\bin\Debug\netcoreapp3.1\Ejercicio 11.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.AssemblyInfo.cs
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 11\Ejercicio 11\Ejercicio 11\obj\Debug\netcoreapp3.1\Ejercicio 11.genruntimeconfig.cache

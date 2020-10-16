@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Fernández\\.nuget\\packages\\": {}
+    "C:\\Users\\carlo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 5\\Ejercicio 5\\Ejercicio 5.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\Source\\Repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 5\\Ejercicio 5\\Ejercicio 5.csproj",
       "projectName": "Ejercicio 5",
-      "projectPath": "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 5\\Ejercicio 5\\Ejercicio 5.csproj",
-      "packagesPath": "C:\\Users\\Fernández\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fernández\\Documents\\C#\\Desarrollo-Interfaces\\Ejercicio 5\\Ejercicio 5\\obj\\",
+      "projectPath": "C:\\Users\\carlo\\Source\\Repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 5\\Ejercicio 5\\Ejercicio 5.csproj",
+      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carlo\\Source\\Repos\\CarlosFdezJim\\Desarrollo-Interfaces\\Ejercicio 5\\Ejercicio 5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fernández\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

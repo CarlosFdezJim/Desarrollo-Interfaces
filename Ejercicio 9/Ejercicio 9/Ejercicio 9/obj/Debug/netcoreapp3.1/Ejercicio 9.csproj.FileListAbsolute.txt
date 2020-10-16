@@ -1,0 +1,12 @@
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\bin\Debug\netcoreapp3.1\Ejercicio 9.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\bin\Debug\netcoreapp3.1\Ejercicio 9.deps.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\bin\Debug\netcoreapp3.1\Ejercicio 9.runtimeconfig.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\bin\Debug\netcoreapp3.1\Ejercicio 9.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\bin\Debug\netcoreapp3.1\Ejercicio 9.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\bin\Debug\netcoreapp3.1\Ejercicio 9.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.AssemblyInfo.cs
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 9\Ejercicio 9\Ejercicio 9\obj\Debug\netcoreapp3.1\Ejercicio 9.genruntimeconfig.cache

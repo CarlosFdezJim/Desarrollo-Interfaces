@@ -11,3 +11,16 @@ C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\o
 C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.dll
 C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.pdb
 C:\Users\Fernández\Documents\C#\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.genruntimeconfig.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\bin\Debug\netcoreapp3.1\Ejercicio 7.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\bin\Debug\netcoreapp3.1\Ejercicio 7.deps.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\bin\Debug\netcoreapp3.1\Ejercicio 7.runtimeconfig.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\bin\Debug\netcoreapp3.1\Ejercicio 7.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\bin\Debug\netcoreapp3.1\Ejercicio 7.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\bin\Debug\netcoreapp3.1\Ejercicio 7.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.AssemblyInfo.cs
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ejercicio 7\Ejercicio 7\obj\Debug\netcoreapp3.1\Ejercicio 7.genruntimeconfig.cache
