@@ -11,3 +11,16 @@ C:\Users\carlo\source\repos\BlocDeNotas\InicioSesion\InicioSesion\bin\Debug\Micr
 C:\Users\carlo\source\repos\BlocDeNotas\InicioSesion\InicioSesion\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\carlo\source\repos\BlocDeNotas\InicioSesion\InicioSesion\obj\Debug\InicioSesion.csproj.CopyComplete
 C:\Users\carlo\source\repos\BlocDeNotas\InicioSesion\InicioSesion\obj\Debug\InicioSesion.Login.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\bin\Debug\InicioSesion.exe.config
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\bin\Debug\InicioSesion.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\bin\Debug\InicioSesion.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.Login.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.Properties.Resources.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.csproj.GenerateResource.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.csproj.CopyComplete
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.pdb
