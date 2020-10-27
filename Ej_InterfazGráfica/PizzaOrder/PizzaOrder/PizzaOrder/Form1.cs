@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PizzaOrder
 {
-    public partial class pedidoPizza : Form
+    public partial class pedidoPizzaCarlosFdezJim : Form
     {
-        public pedidoPizza()
+        public pedidoPizzaCarlosFdezJim()
         {
             InitializeComponent();
             SetColorScheme();

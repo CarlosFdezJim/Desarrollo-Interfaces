@@ -16,7 +16,7 @@ namespace PizzaOrder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new pedidoPizza());
+            Application.Run(new pedidoPizzaCarlosFdezJim());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PizzaOrder
 {
-    partial class pedidoPizza
+    partial class pedidoPizzaCarlosFdezJim
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pedidoPizza));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pedidoPizzaCarlosFdezJim));
             this.logo = new System.Windows.Forms.PictureBox();
             this.companyLabel = new System.Windows.Forms.Label();
             this.customerLabel = new System.Windows.Forms.Label();
@@ -228,7 +228,7 @@
             this.exitApp.Size = new System.Drawing.Size(93, 22);
             this.exitApp.Text = "E&xit";
             // 
-            // pedidoPizza
+            // pedidoPizzaCarlosFdezJim
             // 
             this.AccessibleDescription = "Order form";
             this.AccessibleName = "Order form";
@@ -240,7 +240,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.theMainMenu;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "pedidoPizza";
+            this.Name = "pedidoPizzaCarlosFdezJim";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pizza Order Form";
             this.Load += new System.EventHandler(this.Form1_Load);
