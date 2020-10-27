@@ -71,6 +71,11 @@
             this.numericN.Name = "numericN";
             this.numericN.Size = new System.Drawing.Size(120, 20);
             this.numericN.TabIndex = 3;
+            this.numericN.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericN.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // listBox1

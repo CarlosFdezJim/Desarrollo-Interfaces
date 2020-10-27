@@ -330,13 +330,13 @@
             // ajusteDeLíneaToolStripMenuItem
             // 
             this.ajusteDeLíneaToolStripMenuItem.Name = "ajusteDeLíneaToolStripMenuItem";
-            this.ajusteDeLíneaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajusteDeLíneaToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.ajusteDeLíneaToolStripMenuItem.Text = "Ajuste de línea";
             // 
             // fuenteToolStripMenuItem
             // 
             this.fuenteToolStripMenuItem.Name = "fuenteToolStripMenuItem";
-            this.fuenteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fuenteToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.fuenteToolStripMenuItem.Text = "Fuente";
             // 
             // verToolStripMenuItem
@@ -494,13 +494,13 @@
         private System.Windows.Forms.ToolStripMenuItem verLaAyudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enviarComentariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDelBlocDeNotasToolStripMenuItem1;
-        private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.StatusStrip statusStrip1;
     }
 }
 

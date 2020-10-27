@@ -147,9 +147,13 @@ namespace InicioSesion
                 {
                     MessageBox.Show(string.Format("Cristo Reina"));
                 }
-                else
+                else if(textUser.Text != "Admin")
                 {
-                    MessageBox.Show(string.Format("Creedenciales incorrectas. Inténtalo de nuevo"));
+                    MessageBox.Show(string.Format("Usuario incorrecto"));
+                }
+                else if (textPass.Text != "1234")
+                {
+                    MessageBox.Show(string.Format("Contraseña incorrecta"));
                 }
             }
         

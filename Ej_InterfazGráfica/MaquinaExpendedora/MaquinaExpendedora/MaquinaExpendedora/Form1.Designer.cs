@@ -36,7 +36,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button50cent = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.PRECIO = new System.Windows.Forms.TextBox();
@@ -47,10 +51,6 @@
             this.FantaLimonLata = new System.Windows.Forms.PictureBox();
             this.FantaNaranjaLata = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CocaColaBotella)).BeginInit();
@@ -141,6 +141,26 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "MONEDAS";
             // 
+            // shapeContainer1
+            // 
+            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer1.Name = "shapeContainer1";
+            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape1});
+            this.shapeContainer1.Size = new System.Drawing.Size(163, 266);
+            this.shapeContainer1.TabIndex = 9;
+            this.shapeContainer1.TabStop = false;
+            // 
+            // lineShape1
+            // 
+            this.lineShape1.BorderWidth = 4;
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = 139;
+            this.lineShape1.X2 = 139;
+            this.lineShape1.Y1 = 205;
+            this.lineShape1.Y2 = 225;
+            // 
             // panel3
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
@@ -150,6 +170,26 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(540, 299);
             this.panel3.TabIndex = 2;
+            // 
+            // shapeContainer2
+            // 
+            this.shapeContainer2.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer2.Name = "shapeContainer2";
+            this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.rectangleShape1});
+            this.shapeContainer2.Size = new System.Drawing.Size(540, 299);
+            this.shapeContainer2.TabIndex = 0;
+            this.shapeContainer2.TabStop = false;
+            // 
+            // rectangleShape1
+            // 
+            this.rectangleShape1.BackColor = System.Drawing.Color.Black;
+            this.rectangleShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.rectangleShape1.FillGradientColor = System.Drawing.Color.Black;
+            this.rectangleShape1.Location = new System.Drawing.Point(202, 244);
+            this.rectangleShape1.Name = "rectangleShape1";
+            this.rectangleShape1.Size = new System.Drawing.Size(121, 42);
             // 
             // button1
             // 
@@ -233,7 +273,7 @@
             // 
             this.FantaLimonLata.BackColor = System.Drawing.Color.Transparent;
             this.FantaLimonLata.Image = ((System.Drawing.Image)(resources.GetObject("FantaLimonLata.Image")));
-            this.FantaLimonLata.Location = new System.Drawing.Point(189, 144);
+            this.FantaLimonLata.Location = new System.Drawing.Point(189, 48);
             this.FantaLimonLata.Name = "FantaLimonLata";
             this.FantaLimonLata.Size = new System.Drawing.Size(96, 108);
             this.FantaLimonLata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -245,7 +285,7 @@
             // 
             this.FantaNaranjaLata.BackColor = System.Drawing.Color.Transparent;
             this.FantaNaranjaLata.Image = ((System.Drawing.Image)(resources.GetObject("FantaNaranjaLata.Image")));
-            this.FantaNaranjaLata.Location = new System.Drawing.Point(41, 144);
+            this.FantaNaranjaLata.Location = new System.Drawing.Point(41, 48);
             this.FantaNaranjaLata.Name = "FantaNaranjaLata";
             this.FantaNaranjaLata.Size = new System.Drawing.Size(97, 108);
             this.FantaNaranjaLata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -265,46 +305,6 @@
             this.panel1.Size = new System.Drawing.Size(345, 451);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // shapeContainer1
-            // 
-            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(163, 266);
-            this.shapeContainer1.TabIndex = 9;
-            this.shapeContainer1.TabStop = false;
-            // 
-            // lineShape1
-            // 
-            this.lineShape1.BorderWidth = 4;
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 139;
-            this.lineShape1.X2 = 139;
-            this.lineShape1.Y1 = 205;
-            this.lineShape1.Y2 = 225;
-            // 
-            // shapeContainer2
-            // 
-            this.shapeContainer2.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer2.Name = "shapeContainer2";
-            this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.rectangleShape1});
-            this.shapeContainer2.Size = new System.Drawing.Size(540, 299);
-            this.shapeContainer2.TabIndex = 0;
-            this.shapeContainer2.TabStop = false;
-            // 
-            // rectangleShape1
-            // 
-            this.rectangleShape1.BackColor = System.Drawing.Color.Black;
-            this.rectangleShape1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
-            this.rectangleShape1.FillGradientColor = System.Drawing.Color.Black;
-            this.rectangleShape1.Location = new System.Drawing.Point(202, 244);
-            this.rectangleShape1.Name = "rectangleShape1";
-            this.rectangleShape1.Size = new System.Drawing.Size(121, 42);
             // 
             // Form1
             // 
