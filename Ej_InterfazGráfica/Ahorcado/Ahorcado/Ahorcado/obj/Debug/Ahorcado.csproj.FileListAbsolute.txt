@@ -11,3 +11,4 @@ C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráf
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ahorcado\Ahorcado\Ahorcado\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ahorcado\Ahorcado\Ahorcado\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ahorcado\Ahorcado\Ahorcado\obj\Debug\Ahorcado.csproj.CopyComplete
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ahorcado\Ahorcado\Ahorcado\obj\Debug\Ahorcado.Form2.resources

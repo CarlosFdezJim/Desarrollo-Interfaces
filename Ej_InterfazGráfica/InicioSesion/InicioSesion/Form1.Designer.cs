@@ -39,8 +39,8 @@
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -95,6 +95,7 @@
             this.textPass.Size = new System.Drawing.Size(409, 20);
             this.textPass.TabIndex = 2;
             this.textPass.Text = "CONTRASEÑA";
+            this.textPass.TextChanged += new System.EventHandler(this.textPass_TextChanged);
             this.textPass.Enter += new System.EventHandler(this.textPass_Enter);
             this.textPass.Leave += new System.EventHandler(this.textPass_Leave);
             // 
@@ -174,17 +175,6 @@
             this.shapeContainer1.TabIndex = 8;
             this.shapeContainer1.TabStop = false;
             // 
-            // lineShape1
-            // 
-            this.lineShape1.BorderColor = System.Drawing.Color.DimGray;
-            this.lineShape1.Enabled = false;
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 299;
-            this.lineShape1.X2 = 703;
-            this.lineShape1.Y1 = 99;
-            this.lineShape1.Y2 = 100;
-            this.lineShape1.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
             // lineShape2
             // 
             this.lineShape2.BorderColor = System.Drawing.Color.DimGray;
@@ -195,6 +185,17 @@
             this.lineShape2.Y1 = 169;
             this.lineShape2.Y2 = 171;
             this.lineShape2.Click += new System.EventHandler(this.lineShape1_Click);
+            // 
+            // lineShape1
+            // 
+            this.lineShape1.BorderColor = System.Drawing.Color.DimGray;
+            this.lineShape1.Enabled = false;
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = 299;
+            this.lineShape1.X2 = 703;
+            this.lineShape1.Y1 = 99;
+            this.lineShape1.Y2 = 100;
+            this.lineShape1.Click += new System.EventHandler(this.lineShape1_Click);
             // 
             // Login
             // 

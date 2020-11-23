@@ -29,9 +29,9 @@ namespace Ahorcado
 
         private void textUser_Leave(object sender, EventArgs e)
         {
-            if (textUser.Text == "")
+            if (textUser.Text == "USER")
             {
-                textUser.Text = "USER";
+                textUser.Text = "";
                 textUser.ForeColor = Color.DimGray;
             }
         }
@@ -45,15 +45,32 @@ namespace Ahorcado
                 textPass.UseSystemPasswordChar = true;
             }
         }
+
+        private void textPass_Leave(object sender, EventArgs e)
+        {
+            if (textPass.Text == "")
+            {
+                textPass.Text = "PASSWORD";
+                textPass.ForeColor = Color.DimGray;
+                textPass.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void textPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
         private void buttonLogin_Click_Click(object sender, EventArgs e)
         {
             if ((textUser.Text != "" && textPass.Text != ""))
             {
-                if ((textUser.Text == "Admin") && (textPass.Text == "1234"))
+                if ((textUser.Text == "admin") && (textPass.Text == "1234"))
                 {
                     MessageBox.Show(string.Format("Cristo Reina"));
                 }
-                else if (textUser.Text != "Admin")
+                else if (textUser.Text != "admin")
                 {
                     MessageBox.Show(string.Format("Usuario incorrecto"));
                 }
@@ -62,11 +79,19 @@ namespace Ahorcado
                     MessageBox.Show(string.Format("Contraseña incorrecta"));
                 }
             }
+
+            if(textUser.Text == "User")
+            {
+                this.Hide();
+
+                Form1 f1 = new Form1();
+                f1.Show();
+            }
         }
 
-        private void textUser_TextChanged(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }

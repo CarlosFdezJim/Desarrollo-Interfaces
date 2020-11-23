@@ -158,5 +158,10 @@ namespace InicioSesion
             }
         
         }
+
+        private void textPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
