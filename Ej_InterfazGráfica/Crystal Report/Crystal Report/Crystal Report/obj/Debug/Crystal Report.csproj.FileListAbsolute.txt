@@ -1,0 +1,30 @@
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\Crystal Report.exe.config
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\Crystal Report.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\Crystal Report.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\stdole.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal Report.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal_Report.Form1.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal_Report.Properties.Resources.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal Report.csproj.GenerateResource.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal Report.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal Report.csproj.CopyComplete
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal Report.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Crystal Report\Crystal Report\Crystal Report\obj\Debug\Crystal Report.pdb

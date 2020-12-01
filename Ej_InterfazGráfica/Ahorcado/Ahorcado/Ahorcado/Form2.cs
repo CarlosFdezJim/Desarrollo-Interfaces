@@ -68,7 +68,7 @@ namespace Ahorcado
             {
                 if ((textUser.Text == "admin") && (textPass.Text == "1234"))
                 {
-                    MessageBox.Show(string.Format("Cristo Reina"));
+                    MessageBox.Show(string.Format("Ahora eres Administrador"));
                 }
                 else if (textUser.Text != "admin")
                 {
@@ -80,12 +80,13 @@ namespace Ahorcado
                 }
             }
 
-            if(textUser.Text == "User")
+            if((textUser.Text == "User") && (textPass.Text == ""))
             {
                 this.Hide();
 
                 Form1 f1 = new Form1();
                 f1.Show();
+
             }
         }
 

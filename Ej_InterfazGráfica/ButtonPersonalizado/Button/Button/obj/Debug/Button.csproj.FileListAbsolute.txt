@@ -1,0 +1,8 @@
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\bin\Debug\Button.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\bin\Debug\Button.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\obj\Debug\Button.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\obj\Debug\Button.UserControl1.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\obj\Debug\Button.csproj.GenerateResource.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\obj\Debug\Button.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\obj\Debug\Button.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\ButtonPersonalizado\Button\Button\obj\Debug\Button.pdb

@@ -18,19 +18,30 @@ namespace Ahorcado
         char[] Alfabeto;
         String[] Palabras;
         int Oportunidades;
-        String Path = @"C:\Users\carlo\Desktop\Juego el Ahorcado";
+        String Path = @"C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ahorcado\Ahorcado\Ahorcado\Resources\DataBase.txt";
 
-        ////Cargar palabras de un fichero
-        //Palabras = System.IO.File.ReadAllLines(this.Path);
-        //Console.WriteLine(palabras.Length);
+
 
         public Form1()
         {
             InitializeComponent();
         }
+        public void writeFile(String palabra)
+        {
+            //creo un txtbox en el form.
+            //Cuando escribe en txtBox
+            File.AppendAllText(this.Path, palabra);
 
+        }
+
+        public void readFile()
+        {
+            //Cargar palabras de un fichero
+            Palabras = System.IO.File.ReadAllLines(this.Path);
+        }
         public void StartGame()
         {
+            readFile();
             flFichasDeJuego.Controls.Clear();
             flFichasDeJuego.Enabled = true;
             picAhorcado.Image = null;
@@ -38,7 +49,7 @@ namespace Ahorcado
             lblMensajeWin.Visible = false;
             Oportunidades = 0;
             btnIniciarJuego.Image = Properties.Resources.Jugando;
-            Palabras = new string[] { "Computer", "Laptop", "Keyboard", "Network" , "Password" };
+            //Palabras = new string[] { "Computer", "Laptop", "Keyboard", "Network" , "Password" };
 
             Alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
 
@@ -90,6 +101,12 @@ namespace Ahorcado
             Button letra1 = this.Controls.Find("Adivinado" + indice, true).FirstOrDefault() as Button;
             letra1.Text = PalabrasAdivinadas[indice].ToString();
             PalabrasAdivinadas[indice] = '-';
+
+            //Añdir otra letra descubierta.
+            int indice2 = ramdomLetra.Next(0, Palabras.Length);
+            Button letra2 = this.Controls.Find("Adivinado" + indice2, true).FirstOrDefault() as Button;
+            letra2.Text = PalabrasAdivinadas[indice2].ToString();
+            PalabrasAdivinadas[indice2] = '-';
 
 
         }
@@ -174,6 +191,8 @@ namespace Ahorcado
             if (MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == System.Windows.Forms.DialogResult.Yes)
             {
                 this.Close();
+                Form1 f1 = new Form1();
+                //f1.exit();
             }
         }
     }

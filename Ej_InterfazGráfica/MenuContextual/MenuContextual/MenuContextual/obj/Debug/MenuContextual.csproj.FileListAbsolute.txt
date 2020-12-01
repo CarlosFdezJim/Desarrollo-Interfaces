@@ -1,0 +1,10 @@
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\bin\Debug\MenuContextual.exe.config
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\bin\Debug\MenuContextual.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\bin\Debug\MenuContextual.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.Form1.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.Properties.Resources.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.csproj.GenerateResource.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.pdb
