@@ -29,39 +29,44 @@
         private void InitializeComponent()
         {
             this.lblBienvenida = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblBienvenida2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBienvenida
             // 
+            this.lblBienvenida.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBienvenida.AutoSize = true;
             this.lblBienvenida.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenida.ForeColor = System.Drawing.Color.White;
-            this.lblBienvenida.Location = new System.Drawing.Point(160, 102);
+            this.lblBienvenida.Location = new System.Drawing.Point(160, 34);
             this.lblBienvenida.Name = "lblBienvenida";
             this.lblBienvenida.Size = new System.Drawing.Size(674, 80);
             this.lblBienvenida.TabIndex = 0;
             this.lblBienvenida.Text = "BIENVENIDO A CRISTO REY";
             // 
-            // label1
+            // lblBienvenida2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(192, 441);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(591, 80);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "JOSE GRAS TE BENDIGA";
+            this.lblBienvenida2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblBienvenida2.AutoSize = true;
+            this.lblBienvenida2.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenida2.ForeColor = System.Drawing.Color.White;
+            this.lblBienvenida2.Location = new System.Drawing.Point(180, 477);
+            this.lblBienvenida2.Name = "lblBienvenida2";
+            this.lblBienvenida2.Size = new System.Drawing.Size(591, 80);
+            this.lblBienvenida2.TabIndex = 1;
+            this.lblBienvenida2.Text = "JOSE GRAS TE BENDIGA";
+            this.lblBienvenida2.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PuntoDeInformacion.Properties.Resources.logo_CristoRey_Movil;
-            this.pictureBox1.Location = new System.Drawing.Point(286, 185);
+            this.pictureBox1.Location = new System.Drawing.Point(267, 141);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(369, 242);
+            this.pictureBox1.Size = new System.Drawing.Size(457, 314);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -72,7 +77,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblBienvenida2);
             this.Controls.Add(this.lblBienvenida);
             this.Name = "Inicio";
             this.Size = new System.Drawing.Size(1023, 605);
@@ -85,7 +90,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblBienvenida;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblBienvenida2;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

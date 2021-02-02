@@ -1,6 +1,6 @@
 ﻿namespace PuntoDeInformacion
 {
-    partial class Form1
+    partial class PuntoDeInformación
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PuntoDeInformación));
             this.panelSideMenu = new System.Windows.Forms.Panel();
-            this.bttnFAQ = new System.Windows.Forms.Button();
+            this.bttnSugerencias = new System.Windows.Forms.Button();
             this.panelHorarios = new System.Windows.Forms.Panel();
             this.bttnCurso4 = new System.Windows.Forms.Button();
             this.bttnCurso3 = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@
             this.bttnLugares = new System.Windows.Forms.Button();
             this.panelCentro = new System.Windows.Forms.Panel();
             this.bttnCentroNormas = new System.Windows.Forms.Button();
-            this.bttnCentroEstudios = new System.Windows.Forms.Button();
+            this.bttnCentroCalendario = new System.Windows.Forms.Button();
             this.bttnCentroUbicate = new System.Windows.Forms.Button();
             this.bttnCentroED = new System.Windows.Forms.Button();
             this.bttnCentroWeb = new System.Windows.Forms.Button();
@@ -53,15 +54,19 @@
             this.imgMax = new System.Windows.Forms.PictureBox();
             this.imgMin = new System.Windows.Forms.PictureBox();
             this.imgExitR = new System.Windows.Forms.PictureBox();
-            this.panelCentral = new System.Windows.Forms.Panel();
-            this.paginaCentro1 = new PuntoDeInformacion.PaginaCentro();
-            this.normasCentro1 = new PuntoDeInformacion.NormasCentro();
-            this.equipoDirectivo1 = new PuntoDeInformacion.EquipoDirectivo();
             this.web2 = new PuntoDeInformacion.web();
+            this.equipoDirectivo2 = new PuntoDeInformacion.EquipoDirectivo();
+            this.paginaCentro3 = new PuntoDeInformacion.PaginaCentro();
+            this.paginaCentro2 = new PuntoDeInformacion.PaginaCentro();
+            this.inicio2 = new PuntoDeInformacion.Inicio();
             this.inicio1 = new PuntoDeInformacion.Inicio();
             this.lugaresDeInteres1 = new PuntoDeInformacion.LugaresDeInteres();
+            this.equipoDirectivo1 = new PuntoDeInformacion.EquipoDirectivo();
+            this.web1 = new PuntoDeInformacion.web();
+            this.calendarioEscolar1 = new PuntoDeInformacion.CalendarioEscolar();
+            this.normasCentro1 = new PuntoDeInformacion.NormasCentro();
             this.lugaresDeInteres2 = new PuntoDeInformacion.LugaresDeInteres();
-            this.inicio2 = new PuntoDeInformacion.Inicio();
+            this.sugerencias1 = new PuntoDeInformacion.Sugerencias();
             this.panelSideMenu.SuspendLayout();
             this.panelHorarios.SuspendLayout();
             this.panelCentro.SuspendLayout();
@@ -72,14 +77,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgExitR)).BeginInit();
-            this.panelCentral.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSideMenu
             // 
             this.panelSideMenu.AutoScroll = true;
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(104)))), ((int)(((byte)(120)))));
-            this.panelSideMenu.Controls.Add(this.bttnFAQ);
+            this.panelSideMenu.Controls.Add(this.bttnSugerencias);
             this.panelSideMenu.Controls.Add(this.panelHorarios);
             this.panelSideMenu.Controls.Add(this.bttnHorarios);
             this.panelSideMenu.Controls.Add(this.bttnCitaPrevia);
@@ -94,24 +98,24 @@
             this.panelSideMenu.Size = new System.Drawing.Size(250, 655);
             this.panelSideMenu.TabIndex = 0;
             // 
-            // bttnFAQ
+            // bttnSugerencias
             // 
-            this.bttnFAQ.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bttnFAQ.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bttnFAQ.FlatAppearance.BorderSize = 0;
-            this.bttnFAQ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttnFAQ.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnFAQ.ForeColor = System.Drawing.Color.White;
-            this.bttnFAQ.Image = global::PuntoDeInformacion.Properties.Resources.icons8_question_mark;
-            this.bttnFAQ.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttnFAQ.Location = new System.Drawing.Point(0, 771);
-            this.bttnFAQ.Name = "bttnFAQ";
-            this.bttnFAQ.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.bttnFAQ.Size = new System.Drawing.Size(233, 45);
-            this.bttnFAQ.TabIndex = 8;
-            this.bttnFAQ.Text = "     FAQ";
-            this.bttnFAQ.UseVisualStyleBackColor = true;
-            this.bttnFAQ.Click += new System.EventHandler(this.bttnFAQ_Click);
+            this.bttnSugerencias.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bttnSugerencias.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttnSugerencias.FlatAppearance.BorderSize = 0;
+            this.bttnSugerencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttnSugerencias.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnSugerencias.ForeColor = System.Drawing.Color.White;
+            this.bttnSugerencias.Image = global::PuntoDeInformacion.Properties.Resources.icons8_question_mark;
+            this.bttnSugerencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bttnSugerencias.Location = new System.Drawing.Point(0, 771);
+            this.bttnSugerencias.Name = "bttnSugerencias";
+            this.bttnSugerencias.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.bttnSugerencias.Size = new System.Drawing.Size(233, 45);
+            this.bttnSugerencias.TabIndex = 8;
+            this.bttnSugerencias.Text = "SUGERENCIAS";
+            this.bttnSugerencias.UseVisualStyleBackColor = true;
+            this.bttnSugerencias.Click += new System.EventHandler(this.bttnFAQ_Click);
             // 
             // panelHorarios
             // 
@@ -252,7 +256,7 @@
             // 
             this.panelCentro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(154)))), ((int)(((byte)(165)))));
             this.panelCentro.Controls.Add(this.bttnCentroNormas);
-            this.panelCentro.Controls.Add(this.bttnCentroEstudios);
+            this.panelCentro.Controls.Add(this.bttnCentroCalendario);
             this.panelCentro.Controls.Add(this.bttnCentroUbicate);
             this.panelCentro.Controls.Add(this.bttnCentroED);
             this.panelCentro.Controls.Add(this.bttnCentroWeb);
@@ -280,23 +284,23 @@
             this.bttnCentroNormas.UseVisualStyleBackColor = true;
             this.bttnCentroNormas.Click += new System.EventHandler(this.bttnCentroNormas_Click);
             // 
-            // bttnCentroEstudios
+            // bttnCentroCalendario
             // 
-            this.bttnCentroEstudios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bttnCentroEstudios.FlatAppearance.BorderSize = 0;
-            this.bttnCentroEstudios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttnCentroEstudios.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnCentroEstudios.ForeColor = System.Drawing.Color.White;
-            this.bttnCentroEstudios.Image = global::PuntoDeInformacion.Properties.Resources.icons8_book;
-            this.bttnCentroEstudios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttnCentroEstudios.Location = new System.Drawing.Point(0, 120);
-            this.bttnCentroEstudios.Name = "bttnCentroEstudios";
-            this.bttnCentroEstudios.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.bttnCentroEstudios.Size = new System.Drawing.Size(233, 40);
-            this.bttnCentroEstudios.TabIndex = 3;
-            this.bttnCentroEstudios.Text = "CURSOS";
-            this.bttnCentroEstudios.UseVisualStyleBackColor = true;
-            this.bttnCentroEstudios.Click += new System.EventHandler(this.bttnCentroEstudios_Click);
+            this.bttnCentroCalendario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bttnCentroCalendario.FlatAppearance.BorderSize = 0;
+            this.bttnCentroCalendario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttnCentroCalendario.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnCentroCalendario.ForeColor = System.Drawing.Color.White;
+            this.bttnCentroCalendario.Image = global::PuntoDeInformacion.Properties.Resources.icons8_book;
+            this.bttnCentroCalendario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bttnCentroCalendario.Location = new System.Drawing.Point(0, 120);
+            this.bttnCentroCalendario.Name = "bttnCentroCalendario";
+            this.bttnCentroCalendario.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.bttnCentroCalendario.Size = new System.Drawing.Size(233, 40);
+            this.bttnCentroCalendario.TabIndex = 3;
+            this.bttnCentroCalendario.Text = "CALENDARIO ESCOLAR";
+            this.bttnCentroCalendario.UseVisualStyleBackColor = true;
+            this.bttnCentroCalendario.Click += new System.EventHandler(this.bttnCentroEstudios_Click);
             // 
             // bttnCentroUbicate
             // 
@@ -421,7 +425,7 @@
             this.panelRedes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelRedes.Location = new System.Drawing.Point(250, 0);
             this.panelRedes.Name = "panelRedes";
-            this.panelRedes.Size = new System.Drawing.Size(1023, 50);
+            this.panelRedes.Size = new System.Drawing.Size(1023, 44);
             this.panelRedes.TabIndex = 1;
             this.panelRedes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelRedes_MouseDown);
             // 
@@ -430,7 +434,7 @@
             this.imgExitN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgExitN.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgExitN.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply;
-            this.imgExitN.Location = new System.Drawing.Point(981, 12);
+            this.imgExitN.Location = new System.Drawing.Point(981, 8);
             this.imgExitN.Name = "imgExitN";
             this.imgExitN.Size = new System.Drawing.Size(30, 30);
             this.imgExitN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -445,7 +449,7 @@
             this.imgMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMax.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgMax.Image = global::PuntoDeInformacion.Properties.Resources.icons8_resize_vertical_4;
-            this.imgMax.Location = new System.Drawing.Point(932, 12);
+            this.imgMax.Location = new System.Drawing.Point(932, 8);
             this.imgMax.Name = "imgMax";
             this.imgMax.Size = new System.Drawing.Size(30, 30);
             this.imgMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -472,7 +476,7 @@
             this.imgExitR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgExitR.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgExitR.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_1;
-            this.imgExitR.Location = new System.Drawing.Point(981, 12);
+            this.imgExitR.Location = new System.Drawing.Point(981, 8);
             this.imgExitR.Name = "imgExitR";
             this.imgExitR.Size = new System.Drawing.Size(30, 30);
             this.imgExitR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -482,64 +486,58 @@
             this.imgExitR.Click += new System.EventHandler(this.imgExitR_Click);
             this.imgExitR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitR_MouseUp);
             // 
-            // panelCentral
-            // 
-            this.panelCentral.Controls.Add(this.inicio2);
-            this.panelCentral.Controls.Add(this.lugaresDeInteres2);
-            this.panelCentral.Controls.Add(this.paginaCentro1);
-            this.panelCentral.Controls.Add(this.normasCentro1);
-            this.panelCentral.Controls.Add(this.equipoDirectivo1);
-            this.panelCentral.Controls.Add(this.web2);
-            this.panelCentral.Controls.Add(this.inicio1);
-            this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCentral.Location = new System.Drawing.Point(250, 50);
-            this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(1023, 605);
-            this.panelCentral.TabIndex = 2;
-            // 
-            // paginaCentro1
-            // 
-            this.paginaCentro1.BackColor = System.Drawing.Color.White;
-            this.paginaCentro1.Location = new System.Drawing.Point(3, -3);
-            this.paginaCentro1.Name = "paginaCentro1";
-            this.paginaCentro1.Size = new System.Drawing.Size(1020, 605);
-            this.paginaCentro1.TabIndex = 5;
-            // 
-            // normasCentro1
-            // 
-            this.normasCentro1.Location = new System.Drawing.Point(3, 0);
-            this.normasCentro1.Name = "normasCentro1";
-            this.normasCentro1.Size = new System.Drawing.Size(1020, 605);
-            this.normasCentro1.TabIndex = 4;
-            // 
-            // equipoDirectivo1
-            // 
-            this.equipoDirectivo1.BackColor = System.Drawing.Color.White;
-            this.equipoDirectivo1.Location = new System.Drawing.Point(0, 0);
-            this.equipoDirectivo1.Name = "equipoDirectivo1";
-            this.equipoDirectivo1.Size = new System.Drawing.Size(1023, 605);
-            this.equipoDirectivo1.TabIndex = 3;
-            // 
             // web2
             // 
-            this.web2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.web2.Location = new System.Drawing.Point(3, 0);
+            this.web2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.web2.Location = new System.Drawing.Point(250, 44);
             this.web2.Name = "web2";
-            this.web2.Size = new System.Drawing.Size(1020, 613);
-            this.web2.TabIndex = 2;
+            this.web2.Size = new System.Drawing.Size(1023, 611);
+            this.web2.TabIndex = 6;
+            // 
+            // equipoDirectivo2
+            // 
+            this.equipoDirectivo2.BackColor = System.Drawing.Color.White;
+            this.equipoDirectivo2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.equipoDirectivo2.Location = new System.Drawing.Point(250, 44);
+            this.equipoDirectivo2.Name = "equipoDirectivo2";
+            this.equipoDirectivo2.Size = new System.Drawing.Size(1023, 611);
+            this.equipoDirectivo2.TabIndex = 5;
+            // 
+            // paginaCentro3
+            // 
+            this.paginaCentro3.BackColor = System.Drawing.Color.White;
+            this.paginaCentro3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paginaCentro3.Location = new System.Drawing.Point(250, 44);
+            this.paginaCentro3.Name = "paginaCentro3";
+            this.paginaCentro3.Size = new System.Drawing.Size(1023, 611);
+            this.paginaCentro3.TabIndex = 4;
+            // 
+            // paginaCentro2
+            // 
+            this.paginaCentro2.BackColor = System.Drawing.Color.White;
+            this.paginaCentro2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paginaCentro2.Location = new System.Drawing.Point(250, 44);
+            this.paginaCentro2.Name = "paginaCentro2";
+            this.paginaCentro2.Size = new System.Drawing.Size(1023, 611);
+            this.paginaCentro2.TabIndex = 3;
+            // 
+            // inicio2
+            // 
+            this.inicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
+            this.inicio2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.inicio2.Location = new System.Drawing.Point(250, 44);
+            this.inicio2.Name = "inicio2";
+            this.inicio2.Size = new System.Drawing.Size(1023, 611);
+            this.inicio2.TabIndex = 2;
             // 
             // inicio1
             // 
-            this.inicio1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.inicio1.BackColor = System.Drawing.Color.White;
-            this.inicio1.Location = new System.Drawing.Point(0, 0);
+            this.inicio1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
+            this.inicio1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.inicio1.Location = new System.Drawing.Point(250, 50);
             this.inicio1.Name = "inicio1";
-            this.inicio1.Size = new System.Drawing.Size(1020, 610);
-            this.inicio1.TabIndex = 0;
+            this.inicio1.Size = new System.Drawing.Size(1023, 605);
+            this.inicio1.TabIndex = 2;
             // 
             // lugaresDeInteres1
             // 
@@ -549,33 +547,74 @@
             this.lugaresDeInteres1.Size = new System.Drawing.Size(1020, 605);
             this.lugaresDeInteres1.TabIndex = 0;
             // 
+            // equipoDirectivo1
+            // 
+            this.equipoDirectivo1.BackColor = System.Drawing.Color.White;
+            this.equipoDirectivo1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.equipoDirectivo1.Location = new System.Drawing.Point(250, 50);
+            this.equipoDirectivo1.Name = "equipoDirectivo1";
+            this.equipoDirectivo1.Size = new System.Drawing.Size(1023, 605);
+            this.equipoDirectivo1.TabIndex = 4;
+            // 
+            // web1
+            // 
+            this.web1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.web1.Location = new System.Drawing.Point(250, 50);
+            this.web1.Name = "web1";
+            this.web1.Size = new System.Drawing.Size(1023, 605);
+            this.web1.TabIndex = 5;
+            // 
+            // calendarioEscolar1
+            // 
+            this.calendarioEscolar1.Location = new System.Drawing.Point(528, 194);
+            this.calendarioEscolar1.Name = "calendarioEscolar1";
+            this.calendarioEscolar1.Size = new System.Drawing.Size(1020, 605);
+            this.calendarioEscolar1.TabIndex = 6;
+            // 
+            // normasCentro1
+            // 
+            this.normasCentro1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.normasCentro1.Location = new System.Drawing.Point(250, 44);
+            this.normasCentro1.Name = "normasCentro1";
+            this.normasCentro1.Size = new System.Drawing.Size(1023, 611);
+            this.normasCentro1.TabIndex = 7;
+            // 
             // lugaresDeInteres2
             // 
             this.lugaresDeInteres2.BackColor = System.Drawing.Color.White;
-            this.lugaresDeInteres2.Location = new System.Drawing.Point(0, 0);
+            this.lugaresDeInteres2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lugaresDeInteres2.Location = new System.Drawing.Point(250, 44);
             this.lugaresDeInteres2.Name = "lugaresDeInteres2";
-            this.lugaresDeInteres2.Size = new System.Drawing.Size(1026, 605);
-            this.lugaresDeInteres2.TabIndex = 6;
+            this.lugaresDeInteres2.Size = new System.Drawing.Size(1023, 611);
+            this.lugaresDeInteres2.TabIndex = 8;
             // 
-            // inicio2
+            // sugerencias1
             // 
-            this.inicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
-            this.inicio2.Location = new System.Drawing.Point(0, -2);
-            this.inicio2.Name = "inicio2";
-            this.inicio2.Size = new System.Drawing.Size(1023, 607);
-            this.inicio2.TabIndex = 7;
+            this.sugerencias1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sugerencias1.Location = new System.Drawing.Point(250, 44);
+            this.sugerencias1.Name = "sugerencias1";
+            this.sugerencias1.Size = new System.Drawing.Size(1023, 611);
+            this.sugerencias1.TabIndex = 9;
             // 
-            // Form1
+            // PuntoDeInformación
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 655);
-            this.Controls.Add(this.panelCentral);
+            this.Controls.Add(this.sugerencias1);
+            this.Controls.Add(this.lugaresDeInteres2);
+            this.Controls.Add(this.normasCentro1);
+            this.Controls.Add(this.web2);
+            this.Controls.Add(this.equipoDirectivo2);
+            this.Controls.Add(this.paginaCentro3);
+            this.Controls.Add(this.paginaCentro2);
+            this.Controls.Add(this.inicio2);
             this.Controls.Add(this.panelRedes);
             this.Controls.Add(this.panelSideMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(950, 600);
-            this.Name = "Form1";
+            this.Name = "PuntoDeInformación";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CES CRISTO REY";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -590,7 +629,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgExitR)).EndInit();
-            this.panelCentral.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -601,7 +639,7 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Panel panelCentro;
         private System.Windows.Forms.Button bttnCentroNormas;
-        private System.Windows.Forms.Button bttnCentroEstudios;
+        private System.Windows.Forms.Button bttnCentroCalendario;
         private System.Windows.Forms.Button bttnCentroUbicate;
         private System.Windows.Forms.Button bttnCentroED;
         private System.Windows.Forms.Button bttnCentroWeb;
@@ -615,22 +653,27 @@
         private System.Windows.Forms.Button bttnCurso3;
         private System.Windows.Forms.Button bttnCurso2;
         private System.Windows.Forms.Button bttnCurso1;
-        private System.Windows.Forms.Button bttnFAQ;
+        private System.Windows.Forms.Button bttnSugerencias;
         private System.Windows.Forms.Panel panelRedes;
         private System.Windows.Forms.PictureBox imgLogo;
         private System.Windows.Forms.PictureBox imgExitR;
         private System.Windows.Forms.PictureBox imgExitN;
         private System.Windows.Forms.PictureBox imgMax;
         private System.Windows.Forms.PictureBox imgMin;
-        private System.Windows.Forms.Panel panelCentral;
-        private Inicio inicio1;
-        private web web2;
-        private EquipoDirectivo equipoDirectivo1;
-        private NormasCentro normasCentro1;
         private LugaresDeInteres lugaresDeInteres1;
+        private Inicio inicio1;
         private PaginaCentro paginaCentro1;
-        private LugaresDeInteres lugaresDeInteres2;
+        private EquipoDirectivo equipoDirectivo1;
+        private web web1;
+        private CalendarioEscolar calendarioEscolar1;
         private Inicio inicio2;
+        private PaginaCentro paginaCentro2;
+        private PaginaCentro paginaCentro3;
+        private EquipoDirectivo equipoDirectivo2;
+        private web web2;
+        private NormasCentro normasCentro1;
+        private LugaresDeInteres lugaresDeInteres2;
+        private Sugerencias sugerencias1;
     }
 }
 

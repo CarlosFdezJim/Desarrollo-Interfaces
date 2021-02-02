@@ -140,7 +140,7 @@
             // 
             this.lblOrientador.AutoSize = true;
             this.lblOrientador.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrientador.Location = new System.Drawing.Point(811, 207);
+            this.lblOrientador.Location = new System.Drawing.Point(811, 231);
             this.lblOrientador.Name = "lblOrientador";
             this.lblOrientador.Size = new System.Drawing.Size(87, 22);
             this.lblOrientador.TabIndex = 35;
@@ -150,7 +150,7 @@
             // 
             this.lblJefaturaNombre.AutoSize = true;
             this.lblJefaturaNombre.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJefaturaNombre.Location = new System.Drawing.Point(561, 207);
+            this.lblJefaturaNombre.Location = new System.Drawing.Point(561, 231);
             this.lblJefaturaNombre.Name = "lblJefaturaNombre";
             this.lblJefaturaNombre.Size = new System.Drawing.Size(161, 22);
             this.lblJefaturaNombre.TabIndex = 34;
@@ -160,7 +160,7 @@
             // 
             this.lblNombreSecretaria.AutoSize = true;
             this.lblNombreSecretaria.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreSecretaria.Location = new System.Drawing.Point(335, 207);
+            this.lblNombreSecretaria.Location = new System.Drawing.Point(335, 231);
             this.lblNombreSecretaria.Name = "lblNombreSecretaria";
             this.lblNombreSecretaria.Size = new System.Drawing.Size(47, 22);
             this.lblNombreSecretaria.TabIndex = 33;
@@ -170,7 +170,7 @@
             // 
             this.lblNombreDirector.AutoSize = true;
             this.lblNombreDirector.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreDirector.Location = new System.Drawing.Point(77, 207);
+            this.lblNombreDirector.Location = new System.Drawing.Point(77, 231);
             this.lblNombreDirector.Name = "lblNombreDirector";
             this.lblNombreDirector.Size = new System.Drawing.Size(103, 22);
             this.lblNombreDirector.TabIndex = 32;
@@ -220,7 +220,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(808, 163);
+            this.label3.Location = new System.Drawing.Point(808, 187);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 20);
             this.label3.TabIndex = 27;
@@ -230,7 +230,7 @@
             // 
             this.lblJefatura.AutoSize = true;
             this.lblJefatura.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJefatura.Location = new System.Drawing.Point(542, 163);
+            this.lblJefatura.Location = new System.Drawing.Point(542, 187);
             this.lblJefatura.Name = "lblJefatura";
             this.lblJefatura.Size = new System.Drawing.Size(174, 20);
             this.lblJefatura.TabIndex = 26;
@@ -240,7 +240,7 @@
             // 
             this.lblSecretaria.AutoSize = true;
             this.lblSecretaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSecretaria.Location = new System.Drawing.Point(321, 176);
+            this.lblSecretaria.Location = new System.Drawing.Point(321, 187);
             this.lblSecretaria.Name = "lblSecretaria";
             this.lblSecretaria.Size = new System.Drawing.Size(92, 20);
             this.lblSecretaria.TabIndex = 25;
@@ -250,7 +250,7 @@
             // 
             this.lblDirector.AutoSize = true;
             this.lblDirector.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDirector.Location = new System.Drawing.Point(83, 174);
+            this.lblDirector.Location = new System.Drawing.Point(83, 186);
             this.lblDirector.Name = "lblDirector";
             this.lblDirector.Size = new System.Drawing.Size(85, 22);
             this.lblDirector.TabIndex = 24;
@@ -258,7 +258,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::PuntoDeInformacion.Properties.Resources.pas;
+            this.pictureBox5.Image = global::PuntoDeInformacion.Properties.Resources.icons8_user;
             this.pictureBox5.Location = new System.Drawing.Point(802, 342);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(106, 105);
@@ -299,7 +299,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::PuntoDeInformacion.Properties.Resources.icons8_user;
-            this.pictureBox4.Location = new System.Drawing.Point(802, 45);
+            this.pictureBox4.Location = new System.Drawing.Point(802, 69);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(106, 105);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -309,7 +309,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::PuntoDeInformacion.Properties.Resources.icons8_user;
-            this.pictureBox3.Location = new System.Drawing.Point(576, 45);
+            this.pictureBox3.Location = new System.Drawing.Point(576, 69);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(106, 105);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -319,7 +319,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PuntoDeInformacion.Properties.Resources.icons8_user;
-            this.pictureBox2.Location = new System.Drawing.Point(314, 54);
+            this.pictureBox2.Location = new System.Drawing.Point(314, 69);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(106, 105);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -329,7 +329,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PuntoDeInformacion.Properties.Resources.icons8_user;
-            this.pictureBox1.Location = new System.Drawing.Point(72, 54);
+            this.pictureBox1.Location = new System.Drawing.Point(72, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 105);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

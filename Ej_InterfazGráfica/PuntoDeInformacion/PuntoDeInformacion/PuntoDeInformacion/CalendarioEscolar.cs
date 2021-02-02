@@ -10,16 +10,12 @@ using System.Windows.Forms;
 
 namespace PuntoDeInformacion
 {
-    public partial class Inicio : UserControl
+    public partial class CalendarioEscolar : UserControl
     {
-        public Inicio()
+        public CalendarioEscolar()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            webBrowser1.Navigate("https://www.juntadeandalucia.es/export/drupaljda/calendario_escolar_sevilla_20-21.pdf");
         }
     }
 }

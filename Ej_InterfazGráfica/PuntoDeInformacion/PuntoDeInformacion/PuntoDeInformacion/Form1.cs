@@ -11,12 +11,12 @@ using System.Runtime.InteropServices;
 
 namespace PuntoDeInformacion
 {
-    public partial class Form1 : Form
+    public partial class PuntoDeInformación : Form
     {
-        public Form1()
+        public PuntoDeInformación()
         {
             InitializeComponent();
-            inicio1.BringToFront();
+            inicio2.BringToFront();
             customizeDesing();
         }
 
@@ -71,13 +71,13 @@ namespace PuntoDeInformacion
         #region Centro
         private void bttnCentroWeb_Click(object sender, EventArgs e)
         {
-            paginaCentro1.BringToFront();
+            paginaCentro3.BringToFront();
             hideSubmenu();
         }
 
         private void bttnCentroED_Click(object sender, EventArgs e)
         {
-            equipoDirectivo1.BringToFront();
+            equipoDirectivo2.BringToFront();
             hideSubmenu();
         }
         
@@ -89,6 +89,7 @@ namespace PuntoDeInformacion
 
         private void bttnCentroEstudios_Click(object sender, EventArgs e)
         {
+
             hideSubmenu();
         }
 
@@ -132,7 +133,7 @@ namespace PuntoDeInformacion
         #endregion
         private void bttnFAQ_Click(object sender, EventArgs e)
         {
-
+            sugerencias1.BringToFront();
         }
         #endregion
 

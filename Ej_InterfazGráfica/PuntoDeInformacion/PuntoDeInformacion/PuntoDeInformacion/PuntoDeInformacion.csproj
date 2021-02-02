@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalendarioEscolar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalendarioEscolar.Designer.cs">
+      <DependentUpon>CalendarioEscolar.cs</DependentUpon>
+    </Compile>
     <Compile Include="EquipoDirectivo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     <Compile Include="web.Designer.cs">
       <DependentUpon>web.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CalendarioEscolar.resx">
+      <DependentUpon>CalendarioEscolar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EquipoDirectivo.resx">
       <DependentUpon>EquipoDirectivo.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sugerencias.resx">
+      <DependentUpon>Sugerencias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="web.resx">
       <DependentUpon>web.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +263,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NormasCR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_administrator_male_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

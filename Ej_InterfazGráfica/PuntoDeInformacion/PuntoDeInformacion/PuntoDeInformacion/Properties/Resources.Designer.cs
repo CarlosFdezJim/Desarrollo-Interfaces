@@ -123,6 +123,16 @@ namespace PuntoDeInformacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_administrator_male_50px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_administrator_male_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_book {
             get {
                 object obj = ResourceManager.GetObject("icons8_book", resourceCulture);

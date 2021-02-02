@@ -16,5 +16,19 @@ namespace PuntoDeInformacion
         {
             InitializeComponent();
         }
+
+        private void bttnEnviar_Click(object sender, EventArgs e)
+        {
+            if (richTextBoxSugerencias.Text != "")
+            {
+                MessageBox.Show("Petición enviada, Muchas gracias");
+                richTextBoxSugerencias.Text = "";
+            }
+            else
+            {
+                MessageBox.Show("Escribe la sugerencia y dale a Enviar.");
+            }
+            
+        }
     }
 }
