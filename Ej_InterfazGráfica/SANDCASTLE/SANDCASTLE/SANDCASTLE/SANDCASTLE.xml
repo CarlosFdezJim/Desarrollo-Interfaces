@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SANDCASTLE</name>
+    </assembly>
+    <members>
+        <member name="T:N1_Empleado.Modelo.Empleado">
+            <summary>
+            Representa a la clase Empleado del modelo del mundo del problema.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.nombre">
+            <summary>
+            Nombre del empleado.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.apellido">
+            <summary>
+            Apellido del empleado.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.genero">
+            <summary>
+            Género (sexo) del empleado.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.foto">
+            <summary>
+            Fotografía del empleado.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.salario">
+            <summary>
+            Salario del empleado.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.fechaNacimiento">
+            <summary>
+            Fecha de nacimiento del empleado.
+            </summary>
+        </member>
+        <member name="F:N1_Empleado.Modelo.Empleado.fechaIngreso">
+            <summary>
+            Fecha de ingreso del empleado a la organizaicón.
+            </summary>
+        </member>
+        <member name="M:N1_Empleado.Modelo.Empleado.#ctor(System.String,System.String,System.Char)">
+            <summary>
+            Crea un empleado con los datos básicos.
+            </summary>
+            <param name="nombre">Nombre del empleado.</param>
+            <param name="apellido">Primer apellido dempleado.</param>
+            <param name="genero">Género (sexo) del empleado.</param>
+        </member>
+        <member name="M:N1_Empleado.Modelo.Empleado.CalcularEdad">
+            <summary>
+            Calcula la edad del empleado con base en la fecha de nacimiento.
+            </summary>
+            <returns>Edad del empleado.</returns>
+        </member>
+        <member name="M:N1_Empleado.Modelo.Empleado.CalcularAntiguedad">
+            <summary>
+            Calcula la antigüedad del mpleado. 
+            </summary>
+            <returns>Devuelve la antigüedad del empleado hasta la fecha actual.</returns>
+        </member>
+        <member name="M:N1_Empleado.Modelo.Empleado.CalcularPrestaciones">
+            <summary>
+            Calcula las prestaciones del empleado.
+            </summary>
+            <returns>Prestaciones del empleado.</returns>
+        </member>
+        <member name="M:N1_Empleado.Modelo.Empleado.Metodo1">
+            <summary>
+            Punto de extension (1) del empleado.
+            (Podría tratarse de un método adicional.)
+            </summary>
+            <returns>Cadena de texto con mensaje de prueba.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:N1_Empleado.Modelo.Empleado.Metodo2" -->
+    </members>
+</doc>

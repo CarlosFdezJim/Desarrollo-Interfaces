@@ -24,3 +24,4 @@ C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráf
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.csproj.CopyComplete
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.exe
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\obj\Debug\InicioSesion.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\InicioSesion\InicioSesion\bin\Debug\InicioSesion.xml

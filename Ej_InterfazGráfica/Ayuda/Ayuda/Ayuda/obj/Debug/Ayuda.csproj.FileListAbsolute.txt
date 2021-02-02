@@ -1,0 +1,10 @@
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.Form1.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.Properties.Resources.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.csproj.GenerateResource.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\bin\Debug\Ayuda.exe.config
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\bin\Debug\Ayuda.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\bin\Debug\Ayuda.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.exe
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\Ayuda\Ayuda\Ayuda\obj\Debug\Ayuda.pdb

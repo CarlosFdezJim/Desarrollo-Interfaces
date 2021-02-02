@@ -70,6 +70,7 @@ namespace InicioSesion
 
         private void textUser_Enter(object sender, EventArgs e)
         {
+            //Al pinchar en el textUser borra el contenido.
             if(textUser.Text == "USUARIO")
             {
                 textUser.Text = "";
@@ -79,7 +80,8 @@ namespace InicioSesion
 
         private void textUser_Leave(object sender, EventArgs e)
         {
-            if(textUser.Text == "")
+            //Al pinchar en el textUser si está vacio el contenido pone el texto USUARIO.
+            if (textUser.Text == "")
             {
                 textUser.Text = "USUARIO";
                 textUser.ForeColor = Color.DimGray;
@@ -141,17 +143,20 @@ namespace InicioSesion
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
+            //Comprobamos que el usuario y contraseña no estén vacios
             if ((textUser.Text != "" && textPass.Text != ""))
             {
+                //Comprobamos el usuario y contraseña
                 if ((textUser.Text == "Admin") && (textPass.Text == "1234"))
                 {
+                    //Si es correcto nos muestra un mensaje por pantalla.
                     MessageBox.Show(string.Format("Cristo Reina"));
                 }
-                else if(textUser.Text != "Admin")
+                else if(textUser.Text != "Admin")   //Si el usuario no es correcto
                 {
                     MessageBox.Show(string.Format("Usuario incorrecto"));
                 }
-                else if (textPass.Text != "1234")
+                else if (textPass.Text != "1234")   //Si el usuario no es correcto
                 {
                     MessageBox.Show(string.Format("Contraseña incorrecta"));
                 }

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{187D9BBD-3B6A-4702-8902-83187FE1A1B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PuntoDeInformacion</RootNamespace>
+    <AssemblyName>PuntoDeInformacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GMap.NET.Core, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EquipoDirectivo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EquipoDirectivo.Designer.cs">
+      <DependentUpon>EquipoDirectivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LugaresDeInteres.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LugaresDeInteres.Designer.cs">
+      <DependentUpon>LugaresDeInteres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormasCentro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NormasCentro.Designer.cs">
+      <DependentUpon>NormasCentro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaCentro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PaginaCentro.Designer.cs">
+      <DependentUpon>PaginaCentro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sugerencias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sugerencias.Designer.cs">
+      <DependentUpon>Sugerencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="web.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="web.Designer.cs">
+      <DependentUpon>web.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EquipoDirectivo.resx">
+      <DependentUpon>EquipoDirectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LugaresDeInteres.resx">
+      <DependentUpon>LugaresDeInteres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormasCentro.resx">
+      <DependentUpon>NormasCentro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaCentro.resx">
+      <DependentUpon>PaginaCentro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="web.resx">
+      <DependentUpon>web.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_call.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_home.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_map_pinpoint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_question_mark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_timetable.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_menu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_menu_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_CristoRey_Final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_website.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_compress_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_multiply.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_resize_vertical_4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_multiply_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_organization_chart_people.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_marker.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_book.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_rules.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_exit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_exit_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_exit_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_exit_21.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_CristoRey_Movil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_school.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_1_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_2_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_3_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_1_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_2_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_3_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_e_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jose_gras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NormasCR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NormasCR1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

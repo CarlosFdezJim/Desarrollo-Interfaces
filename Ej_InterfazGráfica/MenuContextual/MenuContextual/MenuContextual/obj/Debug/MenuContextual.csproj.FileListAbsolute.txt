@@ -8,3 +8,8 @@ C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráf
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.csproj.CoreCompileInputs.cache
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.exe
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.pdb
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\bin\Debug\MenuContextual.exe.manifest
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\bin\Debug\MenuContextual.application
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.TrustInfo.xml
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.exe.manifest
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\MenuContextual\MenuContextual\MenuContextual\obj\Debug\MenuContextual.application
