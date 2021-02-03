@@ -160,6 +160,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\calendario.pdf" />
     <None Include="Resources\icons8_call.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -266,6 +267,82 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_administrator_male_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_administrator_male_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_bald_man_in_green_jacket_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_brown_short_hair_lady_in_red_shirt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_businesswoman_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_long_brunette_hair_lady_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_long_brunette_hair_lady_2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_in_red_glasses_and_yellow_shirt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_with_beard_in_green_t_shirt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_with_mustaches_in_green_shirt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_male_1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_with_beard_in_jacket_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_red_short_hair_lady_in_yellow_shirt_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_with_beard_in_blue_glasses_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_with_beard_in_green_t_shirt_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_bald_man_in_green_jacket_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_man_with_beard_in_suit_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_short_hair_lady_in_blue_shirt_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_blond_curly_hair_business_lady_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_brown_pigtail_hair_lady_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

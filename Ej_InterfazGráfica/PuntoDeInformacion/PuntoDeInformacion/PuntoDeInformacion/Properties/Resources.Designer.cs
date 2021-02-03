@@ -61,6 +61,16 @@ namespace PuntoDeInformacion.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] calendario {
+            get {
+                object obj = ResourceManager.GetObject("calendario", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap icons8_1_2 {
@@ -133,9 +143,79 @@ namespace PuntoDeInformacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_administrator_male_50px1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_administrator_male_50px1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_bald_man_in_green_jacket_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_bald_man_in_green_jacket_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_bald_man_in_green_jacket_2 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_bald_man_in_green_jacket_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_blond_curly_hair_business_lady_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_blond_curly_hair_business_lady_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_book {
             get {
                 object obj = ResourceManager.GetObject("icons8_book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_brown_pigtail_hair_lady_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_brown_pigtail_hair_lady_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_brown_short_hair_lady_in_red_shirt {
+            get {
+                object obj = ResourceManager.GetObject("icons8_brown_short_hair_lady_in_red_shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_businesswoman_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_businesswoman_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,6 +303,96 @@ namespace PuntoDeInformacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_long_brunette_hair_lady_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_long_brunette_hair_lady_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_long_brunette_hair_lady_2 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_long_brunette_hair_lady_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_in_red_glasses_and_yellow_shirt {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_in_red_glasses_and_yellow_shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_beard_in_blue_glasses_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_with_beard_in_blue_glasses_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_beard_in_green_t_shirt {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_with_beard_in_green_t_shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_beard_in_green_t_shirt_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_with_beard_in_green_t_shirt_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_beard_in_jacket_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_with_beard_in_jacket_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_beard_in_suit_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_with_beard_in_suit_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_man_with_mustaches_in_green_shirt {
+            get {
+                object obj = ResourceManager.GetObject("icons8_man_with_mustaches_in_green_shirt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_map_pinpoint {
             get {
                 object obj = ResourceManager.GetObject("icons8_map_pinpoint", resourceCulture);
@@ -303,6 +473,16 @@ namespace PuntoDeInformacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_red_short_hair_lady_in_yellow_shirt_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_red_short_hair_lady_in_yellow_shirt_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_resize_vertical_4 {
             get {
                 object obj = ResourceManager.GetObject("icons8_resize_vertical_4", resourceCulture);
@@ -333,6 +513,16 @@ namespace PuntoDeInformacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_short_hair_lady_in_blue_shirt_100px {
+            get {
+                object obj = ResourceManager.GetObject("icons8_short_hair_lady_in_blue_shirt_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_timetable {
             get {
                 object obj = ResourceManager.GetObject("icons8_timetable", resourceCulture);
@@ -346,6 +536,16 @@ namespace PuntoDeInformacion.Properties {
         internal static System.Drawing.Bitmap icons8_user {
             get {
                 object obj = ResourceManager.GetObject("icons8_user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_user_male_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_user_male_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

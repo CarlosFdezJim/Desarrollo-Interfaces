@@ -63,10 +63,11 @@
             this.lugaresDeInteres1 = new PuntoDeInformacion.LugaresDeInteres();
             this.equipoDirectivo1 = new PuntoDeInformacion.EquipoDirectivo();
             this.web1 = new PuntoDeInformacion.web();
-            this.calendarioEscolar1 = new PuntoDeInformacion.CalendarioEscolar();
+            //this.calendarioEscolar1 = new PuntoDeInformacion.CalendarioEscolar();
             this.normasCentro1 = new PuntoDeInformacion.NormasCentro();
             this.lugaresDeInteres2 = new PuntoDeInformacion.LugaresDeInteres();
             this.sugerencias1 = new PuntoDeInformacion.Sugerencias();
+            this.calendarioEscolar2 = new PuntoDeInformacion.CalendarioEscolar();
             this.panelSideMenu.SuspendLayout();
             this.panelHorarios.SuspendLayout();
             this.panelCentro.SuspendLayout();
@@ -566,10 +567,10 @@
             // 
             // calendarioEscolar1
             // 
-            this.calendarioEscolar1.Location = new System.Drawing.Point(528, 194);
-            this.calendarioEscolar1.Name = "calendarioEscolar1";
-            this.calendarioEscolar1.Size = new System.Drawing.Size(1020, 605);
-            this.calendarioEscolar1.TabIndex = 6;
+            //this.calendarioEscolar1.Location = new System.Drawing.Point(528, 194);
+            //this.calendarioEscolar1.Name = "calendarioEscolar1";
+            //this.calendarioEscolar1.Size = new System.Drawing.Size(1020, 605);
+            //this.calendarioEscolar1.TabIndex = 6;
             // 
             // normasCentro1
             // 
@@ -596,11 +597,20 @@
             this.sugerencias1.Size = new System.Drawing.Size(1023, 611);
             this.sugerencias1.TabIndex = 9;
             // 
+            // calendarioEscolar2
+            // 
+            this.calendarioEscolar2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.calendarioEscolar2.Location = new System.Drawing.Point(250, 44);
+            this.calendarioEscolar2.Name = "calendarioEscolar2";
+            this.calendarioEscolar2.Size = new System.Drawing.Size(1023, 611);
+            this.calendarioEscolar2.TabIndex = 10;
+            // 
             // PuntoDeInformación
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1273, 655);
+            this.Controls.Add(this.calendarioEscolar2);
             this.Controls.Add(this.sugerencias1);
             this.Controls.Add(this.lugaresDeInteres2);
             this.Controls.Add(this.normasCentro1);
@@ -665,7 +675,7 @@
         private PaginaCentro paginaCentro1;
         private EquipoDirectivo equipoDirectivo1;
         private web web1;
-        private CalendarioEscolar calendarioEscolar1;
+        //private CalendarioEscolar calendarioEscolar1;
         private Inicio inicio2;
         private PaginaCentro paginaCentro2;
         private PaginaCentro paginaCentro3;
@@ -674,6 +684,7 @@
         private NormasCentro normasCentro1;
         private LugaresDeInteres lugaresDeInteres2;
         private Sugerencias sugerencias1;
+        private CalendarioEscolar calendarioEscolar2;
     }
 }
 

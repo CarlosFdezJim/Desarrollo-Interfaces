@@ -18,4 +18,9 @@ C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráf
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.PuntoDeInformación.resources
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.Sugerencias.resources
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.CalendarioEscolar.resources
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.csproj.ResolveComReference.cache
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.csprojAssemblyReference.cache

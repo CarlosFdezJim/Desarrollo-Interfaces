@@ -26,7 +26,7 @@ namespace PuntoDeInformacion
             }
             else
             {
-                MessageBox.Show("Escribe la sugerencia y dale a Enviar.");
+                MessageBox.Show("El texto a enviar no puede estar vacío.");
             }
             
         }

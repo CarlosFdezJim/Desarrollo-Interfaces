@@ -89,7 +89,7 @@ namespace PuntoDeInformacion
 
         private void bttnCentroEstudios_Click(object sender, EventArgs e)
         {
-
+            calendarioEscolar2.BringToFront();
             hideSubmenu();
         }
 
