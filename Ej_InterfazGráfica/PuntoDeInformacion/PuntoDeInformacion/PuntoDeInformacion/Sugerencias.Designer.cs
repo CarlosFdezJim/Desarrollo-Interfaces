@@ -36,9 +36,9 @@
             // 
             // bttnEnviar
             // 
-            this.bttnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttnEnviar.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnEnviar.Location = new System.Drawing.Point(384, 452);
+            this.bttnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.bttnEnviar.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnEnviar.Location = new System.Drawing.Point(402, 460);
             this.bttnEnviar.Name = "bttnEnviar";
             this.bttnEnviar.Size = new System.Drawing.Size(144, 43);
             this.bttnEnviar.TabIndex = 0;
@@ -58,6 +58,7 @@
             // 
             // richTextBoxSugerencias
             // 
+            this.richTextBoxSugerencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(232)))), ((int)(((byte)(235)))));
             this.richTextBoxSugerencias.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxSugerencias.Location = new System.Drawing.Point(210, 180);
             this.richTextBoxSugerencias.Name = "richTextBoxSugerencias";
@@ -79,6 +80,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(179)))), ((int)(((byte)(187)))));
             this.Controls.Add(this.lblSugerencia);
             this.Controls.Add(this.richTextBoxSugerencias);
             this.Controls.Add(this.lbltitulo);

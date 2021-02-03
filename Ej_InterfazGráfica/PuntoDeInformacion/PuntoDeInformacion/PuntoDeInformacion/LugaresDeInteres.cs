@@ -100,5 +100,10 @@ namespace PuntoDeInformacion
         {
             ShowLocations(LatElPepe, LngElPepe, "El Pepe");
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

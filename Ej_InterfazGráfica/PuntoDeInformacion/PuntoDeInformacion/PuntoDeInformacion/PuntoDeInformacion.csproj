@@ -344,5 +344,18 @@
       <Isolated>False</Isolated>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_multiply_5.ico" />
+    <None Include="Resources\icons8_multiply_4.ico" />
+    <None Include="Resources\icons8_multiply_3.ico" />
+    <None Include="Resources\icons8_full_screen_3.ico" />
+    <None Include="Resources\icons8_full_screen_2.ico" />
+    <None Include="Resources\icons8_compress_5.ico" />
+    <None Include="Resources\icons8_compress_4.ico" />
+    <Content Include="Resources\Planos_Centro_001.png" />
+    <Content Include="Resources\Planos_Centro_002.png" />
+    <Content Include="Resources\Planos_Centro_003.png" />
+    <Content Include="Resources\Planos_Centro_004.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

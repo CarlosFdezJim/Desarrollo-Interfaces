@@ -30,30 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PuntoDeInformación));
             this.panelSideMenu = new System.Windows.Forms.Panel();
-            this.bttnSugerencias = new System.Windows.Forms.Button();
             this.panelHorarios = new System.Windows.Forms.Panel();
             this.bttnCurso4 = new System.Windows.Forms.Button();
             this.bttnCurso3 = new System.Windows.Forms.Button();
             this.bttnCurso2 = new System.Windows.Forms.Button();
             this.bttnCurso1 = new System.Windows.Forms.Button();
-            this.bttnHorarios = new System.Windows.Forms.Button();
-            this.bttnCitaPrevia = new System.Windows.Forms.Button();
-            this.bttnLugares = new System.Windows.Forms.Button();
             this.panelCentro = new System.Windows.Forms.Panel();
-            this.bttnCentroNormas = new System.Windows.Forms.Button();
-            this.bttnCentroCalendario = new System.Windows.Forms.Button();
-            this.bttnCentroUbicate = new System.Windows.Forms.Button();
-            this.bttnCentroED = new System.Windows.Forms.Button();
-            this.bttnCentroWeb = new System.Windows.Forms.Button();
-            this.bttnCentro = new System.Windows.Forms.Button();
-            this.bttnInicio = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.imgLogo = new System.Windows.Forms.PictureBox();
             this.panelRedes = new System.Windows.Forms.Panel();
-            this.imgExitN = new System.Windows.Forms.PictureBox();
-            this.imgMax = new System.Windows.Forms.PictureBox();
-            this.imgMin = new System.Windows.Forms.PictureBox();
-            this.imgExitR = new System.Windows.Forms.PictureBox();
+            this.calendarioEscolar2 = new PuntoDeInformacion.CalendarioEscolar();
+            this.sugerencias1 = new PuntoDeInformacion.Sugerencias();
+            this.lugaresDeInteres2 = new PuntoDeInformacion.LugaresDeInteres();
+            this.normasCentro1 = new PuntoDeInformacion.NormasCentro();
             this.web2 = new PuntoDeInformacion.web();
             this.equipoDirectivo2 = new PuntoDeInformacion.EquipoDirectivo();
             this.paginaCentro3 = new PuntoDeInformacion.PaginaCentro();
@@ -63,21 +51,32 @@
             this.lugaresDeInteres1 = new PuntoDeInformacion.LugaresDeInteres();
             this.equipoDirectivo1 = new PuntoDeInformacion.EquipoDirectivo();
             this.web1 = new PuntoDeInformacion.web();
-            //this.calendarioEscolar1 = new PuntoDeInformacion.CalendarioEscolar();
-            this.normasCentro1 = new PuntoDeInformacion.NormasCentro();
-            this.lugaresDeInteres2 = new PuntoDeInformacion.LugaresDeInteres();
-            this.sugerencias1 = new PuntoDeInformacion.Sugerencias();
-            this.calendarioEscolar2 = new PuntoDeInformacion.CalendarioEscolar();
+            this.imgExitB = new System.Windows.Forms.PictureBox();
+            this.imgMax = new System.Windows.Forms.PictureBox();
+            this.imgMin = new System.Windows.Forms.PictureBox();
+            this.imgExitR = new System.Windows.Forms.PictureBox();
+            this.bttnSugerencias = new System.Windows.Forms.Button();
+            this.bttnHorarios = new System.Windows.Forms.Button();
+            this.bttnCitaPrevia = new System.Windows.Forms.Button();
+            this.bttnLugares = new System.Windows.Forms.Button();
+            this.bttnCentroNormas = new System.Windows.Forms.Button();
+            this.bttnCentroCalendario = new System.Windows.Forms.Button();
+            this.bttnCentroUbicate = new System.Windows.Forms.Button();
+            this.bttnCentroED = new System.Windows.Forms.Button();
+            this.bttnCentroWeb = new System.Windows.Forms.Button();
+            this.bttnCentro = new System.Windows.Forms.Button();
+            this.bttnInicio = new System.Windows.Forms.Button();
+            this.imgLogo = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.panelHorarios.SuspendLayout();
             this.panelCentro.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             this.panelRedes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgExitN)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgExitB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgExitR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -98,25 +97,6 @@
             this.panelSideMenu.Name = "panelSideMenu";
             this.panelSideMenu.Size = new System.Drawing.Size(250, 655);
             this.panelSideMenu.TabIndex = 0;
-            // 
-            // bttnSugerencias
-            // 
-            this.bttnSugerencias.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bttnSugerencias.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bttnSugerencias.FlatAppearance.BorderSize = 0;
-            this.bttnSugerencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttnSugerencias.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnSugerencias.ForeColor = System.Drawing.Color.White;
-            this.bttnSugerencias.Image = global::PuntoDeInformacion.Properties.Resources.icons8_question_mark;
-            this.bttnSugerencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttnSugerencias.Location = new System.Drawing.Point(0, 771);
-            this.bttnSugerencias.Name = "bttnSugerencias";
-            this.bttnSugerencias.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.bttnSugerencias.Size = new System.Drawing.Size(233, 45);
-            this.bttnSugerencias.TabIndex = 8;
-            this.bttnSugerencias.Text = "SUGERENCIAS";
-            this.bttnSugerencias.UseVisualStyleBackColor = true;
-            this.bttnSugerencias.Click += new System.EventHandler(this.bttnFAQ_Click);
             // 
             // panelHorarios
             // 
@@ -196,6 +176,231 @@
             this.bttnCurso1.UseVisualStyleBackColor = true;
             this.bttnCurso1.Click += new System.EventHandler(this.button5_Click);
             // 
+            // panelCentro
+            // 
+            this.panelCentro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(154)))), ((int)(((byte)(165)))));
+            this.panelCentro.Controls.Add(this.bttnCentroNormas);
+            this.panelCentro.Controls.Add(this.bttnCentroCalendario);
+            this.panelCentro.Controls.Add(this.bttnCentroUbicate);
+            this.panelCentro.Controls.Add(this.bttnCentroED);
+            this.panelCentro.Controls.Add(this.bttnCentroWeb);
+            this.panelCentro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelCentro.Location = new System.Drawing.Point(0, 239);
+            this.panelCentro.Name = "panelCentro";
+            this.panelCentro.Size = new System.Drawing.Size(233, 221);
+            this.panelCentro.TabIndex = 3;
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.Controls.Add(this.imgLogo);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(233, 149);
+            this.panelLogo.TabIndex = 0;
+            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
+            // 
+            // panelRedes
+            // 
+            this.panelRedes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(104)))), ((int)(((byte)(120)))));
+            this.panelRedes.Controls.Add(this.imgExitB);
+            this.panelRedes.Controls.Add(this.imgMax);
+            this.panelRedes.Controls.Add(this.imgMin);
+            this.panelRedes.Controls.Add(this.imgExitR);
+            this.panelRedes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelRedes.Location = new System.Drawing.Point(250, 0);
+            this.panelRedes.Name = "panelRedes";
+            this.panelRedes.Size = new System.Drawing.Size(1023, 38);
+            this.panelRedes.TabIndex = 1;
+            this.panelRedes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelRedes_MouseDown);
+            // 
+            // calendarioEscolar2
+            // 
+            this.calendarioEscolar2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.calendarioEscolar2.Location = new System.Drawing.Point(250, 38);
+            this.calendarioEscolar2.Name = "calendarioEscolar2";
+            this.calendarioEscolar2.Size = new System.Drawing.Size(1023, 617);
+            this.calendarioEscolar2.TabIndex = 10;
+            // 
+            // sugerencias1
+            // 
+            this.sugerencias1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.sugerencias1.Location = new System.Drawing.Point(250, 38);
+            this.sugerencias1.Name = "sugerencias1";
+            this.sugerencias1.Size = new System.Drawing.Size(1023, 617);
+            this.sugerencias1.TabIndex = 9;
+            // 
+            // lugaresDeInteres2
+            // 
+            this.lugaresDeInteres2.BackColor = System.Drawing.Color.White;
+            this.lugaresDeInteres2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lugaresDeInteres2.Location = new System.Drawing.Point(250, 38);
+            this.lugaresDeInteres2.Name = "lugaresDeInteres2";
+            this.lugaresDeInteres2.Size = new System.Drawing.Size(1023, 617);
+            this.lugaresDeInteres2.TabIndex = 8;
+            // 
+            // normasCentro1
+            // 
+            this.normasCentro1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.normasCentro1.Location = new System.Drawing.Point(250, 38);
+            this.normasCentro1.Name = "normasCentro1";
+            this.normasCentro1.Size = new System.Drawing.Size(1023, 617);
+            this.normasCentro1.TabIndex = 7;
+            // 
+            // web2
+            // 
+            this.web2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.web2.Location = new System.Drawing.Point(250, 38);
+            this.web2.Name = "web2";
+            this.web2.Size = new System.Drawing.Size(1023, 617);
+            this.web2.TabIndex = 6;
+            // 
+            // equipoDirectivo2
+            // 
+            this.equipoDirectivo2.BackColor = System.Drawing.Color.White;
+            this.equipoDirectivo2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.equipoDirectivo2.Location = new System.Drawing.Point(250, 38);
+            this.equipoDirectivo2.Name = "equipoDirectivo2";
+            this.equipoDirectivo2.Size = new System.Drawing.Size(1023, 617);
+            this.equipoDirectivo2.TabIndex = 5;
+            // 
+            // paginaCentro3
+            // 
+            this.paginaCentro3.BackColor = System.Drawing.Color.White;
+            this.paginaCentro3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paginaCentro3.Location = new System.Drawing.Point(250, 38);
+            this.paginaCentro3.Name = "paginaCentro3";
+            this.paginaCentro3.Size = new System.Drawing.Size(1023, 617);
+            this.paginaCentro3.TabIndex = 4;
+            // 
+            // paginaCentro2
+            // 
+            this.paginaCentro2.BackColor = System.Drawing.Color.White;
+            this.paginaCentro2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paginaCentro2.Location = new System.Drawing.Point(250, 38);
+            this.paginaCentro2.Name = "paginaCentro2";
+            this.paginaCentro2.Size = new System.Drawing.Size(1023, 617);
+            this.paginaCentro2.TabIndex = 3;
+            // 
+            // inicio2
+            // 
+            this.inicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
+            this.inicio2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.inicio2.Location = new System.Drawing.Point(250, 38);
+            this.inicio2.Name = "inicio2";
+            this.inicio2.Size = new System.Drawing.Size(1023, 617);
+            this.inicio2.TabIndex = 2;
+            // 
+            // inicio1
+            // 
+            this.inicio1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
+            this.inicio1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.inicio1.Location = new System.Drawing.Point(250, 50);
+            this.inicio1.Name = "inicio1";
+            this.inicio1.Size = new System.Drawing.Size(1023, 605);
+            this.inicio1.TabIndex = 2;
+            // 
+            // lugaresDeInteres1
+            // 
+            this.lugaresDeInteres1.BackColor = System.Drawing.Color.White;
+            this.lugaresDeInteres1.Location = new System.Drawing.Point(3, 0);
+            this.lugaresDeInteres1.Name = "lugaresDeInteres1";
+            this.lugaresDeInteres1.Size = new System.Drawing.Size(1020, 605);
+            this.lugaresDeInteres1.TabIndex = 0;
+            // 
+            // equipoDirectivo1
+            // 
+            this.equipoDirectivo1.BackColor = System.Drawing.Color.White;
+            this.equipoDirectivo1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.equipoDirectivo1.Location = new System.Drawing.Point(250, 50);
+            this.equipoDirectivo1.Name = "equipoDirectivo1";
+            this.equipoDirectivo1.Size = new System.Drawing.Size(1023, 605);
+            this.equipoDirectivo1.TabIndex = 4;
+            // 
+            // web1
+            // 
+            this.web1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.web1.Location = new System.Drawing.Point(250, 50);
+            this.web1.Name = "web1";
+            this.web1.Size = new System.Drawing.Size(1023, 605);
+            this.web1.TabIndex = 5;
+            // 
+            // imgExitB
+            // 
+            this.imgExitB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgExitB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgExitB.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_4;
+            this.imgExitB.Location = new System.Drawing.Point(981, 9);
+            this.imgExitB.Name = "imgExitB";
+            this.imgExitB.Size = new System.Drawing.Size(30, 26);
+            this.imgExitB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgExitB.TabIndex = 3;
+            this.imgExitB.TabStop = false;
+            this.imgExitB.Click += new System.EventHandler(this.imgExitN_Click);
+            this.imgExitB.MouseHover += new System.EventHandler(this.imgExitN_MouseUp);
+            this.imgExitB.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitN_MouseUp);
+            // 
+            // imgMax
+            // 
+            this.imgMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgMax.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgMax.Image = global::PuntoDeInformacion.Properties.Resources.icons8_full_screen_3;
+            this.imgMax.Location = new System.Drawing.Point(933, 9);
+            this.imgMax.Name = "imgMax";
+            this.imgMax.Size = new System.Drawing.Size(30, 24);
+            this.imgMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgMax.TabIndex = 2;
+            this.imgMax.TabStop = false;
+            this.imgMax.Click += new System.EventHandler(this.imgMax_Click);
+            // 
+            // imgMin
+            // 
+            this.imgMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgMin.Image = global::PuntoDeInformacion.Properties.Resources.icons8_compress_4;
+            this.imgMin.Location = new System.Drawing.Point(933, 9);
+            this.imgMin.Name = "imgMin";
+            this.imgMin.Size = new System.Drawing.Size(30, 24);
+            this.imgMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgMin.TabIndex = 1;
+            this.imgMin.TabStop = false;
+            this.imgMin.Visible = false;
+            this.imgMin.Click += new System.EventHandler(this.imgMin_Click);
+            // 
+            // imgExitR
+            // 
+            this.imgExitR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgExitR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgExitR.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_5;
+            this.imgExitR.Location = new System.Drawing.Point(981, 9);
+            this.imgExitR.Name = "imgExitR";
+            this.imgExitR.Size = new System.Drawing.Size(30, 24);
+            this.imgExitR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgExitR.TabIndex = 4;
+            this.imgExitR.TabStop = false;
+            this.imgExitR.Visible = false;
+            this.imgExitR.Click += new System.EventHandler(this.imgExitR_Click);
+            this.imgExitR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitR_MouseUp);
+            // 
+            // bttnSugerencias
+            // 
+            this.bttnSugerencias.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bttnSugerencias.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttnSugerencias.FlatAppearance.BorderSize = 0;
+            this.bttnSugerencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttnSugerencias.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnSugerencias.ForeColor = System.Drawing.Color.White;
+            this.bttnSugerencias.Image = global::PuntoDeInformacion.Properties.Resources.icons8_question_mark;
+            this.bttnSugerencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bttnSugerencias.Location = new System.Drawing.Point(0, 771);
+            this.bttnSugerencias.Name = "bttnSugerencias";
+            this.bttnSugerencias.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.bttnSugerencias.Size = new System.Drawing.Size(233, 45);
+            this.bttnSugerencias.TabIndex = 8;
+            this.bttnSugerencias.Text = "SUGERENCIAS";
+            this.bttnSugerencias.UseVisualStyleBackColor = true;
+            this.bttnSugerencias.Click += new System.EventHandler(this.bttnFAQ_Click);
+            // 
             // bttnHorarios
             // 
             this.bttnHorarios.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -252,20 +457,6 @@
             this.bttnLugares.Text = "LUGARES DE INTERES";
             this.bttnLugares.UseVisualStyleBackColor = true;
             this.bttnLugares.Click += new System.EventHandler(this.bttnLugares_Click);
-            // 
-            // panelCentro
-            // 
-            this.panelCentro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(154)))), ((int)(((byte)(165)))));
-            this.panelCentro.Controls.Add(this.bttnCentroNormas);
-            this.panelCentro.Controls.Add(this.bttnCentroCalendario);
-            this.panelCentro.Controls.Add(this.bttnCentroUbicate);
-            this.panelCentro.Controls.Add(this.bttnCentroED);
-            this.panelCentro.Controls.Add(this.bttnCentroWeb);
-            this.panelCentro.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCentro.Location = new System.Drawing.Point(0, 239);
-            this.panelCentro.Name = "panelCentro";
-            this.panelCentro.Size = new System.Drawing.Size(233, 221);
-            this.panelCentro.TabIndex = 3;
             // 
             // bttnCentroNormas
             // 
@@ -395,16 +586,6 @@
             this.bttnInicio.UseVisualStyleBackColor = true;
             this.bttnInicio.Click += new System.EventHandler(this.bttnInicio_Click);
             // 
-            // panelLogo
-            // 
-            this.panelLogo.Controls.Add(this.imgLogo);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(233, 149);
-            this.panelLogo.TabIndex = 0;
-            this.panelLogo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelLogo_Paint);
-            // 
             // imgLogo
             // 
             this.imgLogo.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -415,195 +596,6 @@
             this.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgLogo.TabIndex = 0;
             this.imgLogo.TabStop = false;
-            // 
-            // panelRedes
-            // 
-            this.panelRedes.BackColor = System.Drawing.Color.LightGray;
-            this.panelRedes.Controls.Add(this.imgExitN);
-            this.panelRedes.Controls.Add(this.imgMax);
-            this.panelRedes.Controls.Add(this.imgMin);
-            this.panelRedes.Controls.Add(this.imgExitR);
-            this.panelRedes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelRedes.Location = new System.Drawing.Point(250, 0);
-            this.panelRedes.Name = "panelRedes";
-            this.panelRedes.Size = new System.Drawing.Size(1023, 44);
-            this.panelRedes.TabIndex = 1;
-            this.panelRedes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelRedes_MouseDown);
-            // 
-            // imgExitN
-            // 
-            this.imgExitN.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgExitN.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgExitN.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply;
-            this.imgExitN.Location = new System.Drawing.Point(981, 8);
-            this.imgExitN.Name = "imgExitN";
-            this.imgExitN.Size = new System.Drawing.Size(30, 30);
-            this.imgExitN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgExitN.TabIndex = 3;
-            this.imgExitN.TabStop = false;
-            this.imgExitN.Click += new System.EventHandler(this.imgExitN_Click);
-            this.imgExitN.MouseHover += new System.EventHandler(this.imgExitN_MouseUp);
-            this.imgExitN.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitN_MouseUp);
-            // 
-            // imgMax
-            // 
-            this.imgMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgMax.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgMax.Image = global::PuntoDeInformacion.Properties.Resources.icons8_resize_vertical_4;
-            this.imgMax.Location = new System.Drawing.Point(932, 8);
-            this.imgMax.Name = "imgMax";
-            this.imgMax.Size = new System.Drawing.Size(30, 30);
-            this.imgMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgMax.TabIndex = 2;
-            this.imgMax.TabStop = false;
-            this.imgMax.Click += new System.EventHandler(this.imgMax_Click);
-            // 
-            // imgMin
-            // 
-            this.imgMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgMin.Image = global::PuntoDeInformacion.Properties.Resources.icons8_compress_1;
-            this.imgMin.Location = new System.Drawing.Point(932, 12);
-            this.imgMin.Name = "imgMin";
-            this.imgMin.Size = new System.Drawing.Size(30, 30);
-            this.imgMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgMin.TabIndex = 1;
-            this.imgMin.TabStop = false;
-            this.imgMin.Visible = false;
-            this.imgMin.Click += new System.EventHandler(this.imgMin_Click);
-            // 
-            // imgExitR
-            // 
-            this.imgExitR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.imgExitR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgExitR.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_1;
-            this.imgExitR.Location = new System.Drawing.Point(981, 8);
-            this.imgExitR.Name = "imgExitR";
-            this.imgExitR.Size = new System.Drawing.Size(30, 30);
-            this.imgExitR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgExitR.TabIndex = 4;
-            this.imgExitR.TabStop = false;
-            this.imgExitR.Visible = false;
-            this.imgExitR.Click += new System.EventHandler(this.imgExitR_Click);
-            this.imgExitR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitR_MouseUp);
-            // 
-            // web2
-            // 
-            this.web2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.web2.Location = new System.Drawing.Point(250, 44);
-            this.web2.Name = "web2";
-            this.web2.Size = new System.Drawing.Size(1023, 611);
-            this.web2.TabIndex = 6;
-            // 
-            // equipoDirectivo2
-            // 
-            this.equipoDirectivo2.BackColor = System.Drawing.Color.White;
-            this.equipoDirectivo2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.equipoDirectivo2.Location = new System.Drawing.Point(250, 44);
-            this.equipoDirectivo2.Name = "equipoDirectivo2";
-            this.equipoDirectivo2.Size = new System.Drawing.Size(1023, 611);
-            this.equipoDirectivo2.TabIndex = 5;
-            // 
-            // paginaCentro3
-            // 
-            this.paginaCentro3.BackColor = System.Drawing.Color.White;
-            this.paginaCentro3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paginaCentro3.Location = new System.Drawing.Point(250, 44);
-            this.paginaCentro3.Name = "paginaCentro3";
-            this.paginaCentro3.Size = new System.Drawing.Size(1023, 611);
-            this.paginaCentro3.TabIndex = 4;
-            // 
-            // paginaCentro2
-            // 
-            this.paginaCentro2.BackColor = System.Drawing.Color.White;
-            this.paginaCentro2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paginaCentro2.Location = new System.Drawing.Point(250, 44);
-            this.paginaCentro2.Name = "paginaCentro2";
-            this.paginaCentro2.Size = new System.Drawing.Size(1023, 611);
-            this.paginaCentro2.TabIndex = 3;
-            // 
-            // inicio2
-            // 
-            this.inicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
-            this.inicio2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.inicio2.Location = new System.Drawing.Point(250, 44);
-            this.inicio2.Name = "inicio2";
-            this.inicio2.Size = new System.Drawing.Size(1023, 611);
-            this.inicio2.TabIndex = 2;
-            // 
-            // inicio1
-            // 
-            this.inicio1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
-            this.inicio1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.inicio1.Location = new System.Drawing.Point(250, 50);
-            this.inicio1.Name = "inicio1";
-            this.inicio1.Size = new System.Drawing.Size(1023, 605);
-            this.inicio1.TabIndex = 2;
-            // 
-            // lugaresDeInteres1
-            // 
-            this.lugaresDeInteres1.BackColor = System.Drawing.Color.White;
-            this.lugaresDeInteres1.Location = new System.Drawing.Point(3, 0);
-            this.lugaresDeInteres1.Name = "lugaresDeInteres1";
-            this.lugaresDeInteres1.Size = new System.Drawing.Size(1020, 605);
-            this.lugaresDeInteres1.TabIndex = 0;
-            // 
-            // equipoDirectivo1
-            // 
-            this.equipoDirectivo1.BackColor = System.Drawing.Color.White;
-            this.equipoDirectivo1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.equipoDirectivo1.Location = new System.Drawing.Point(250, 50);
-            this.equipoDirectivo1.Name = "equipoDirectivo1";
-            this.equipoDirectivo1.Size = new System.Drawing.Size(1023, 605);
-            this.equipoDirectivo1.TabIndex = 4;
-            // 
-            // web1
-            // 
-            this.web1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.web1.Location = new System.Drawing.Point(250, 50);
-            this.web1.Name = "web1";
-            this.web1.Size = new System.Drawing.Size(1023, 605);
-            this.web1.TabIndex = 5;
-            // 
-            // calendarioEscolar1
-            // 
-            //this.calendarioEscolar1.Location = new System.Drawing.Point(528, 194);
-            //this.calendarioEscolar1.Name = "calendarioEscolar1";
-            //this.calendarioEscolar1.Size = new System.Drawing.Size(1020, 605);
-            //this.calendarioEscolar1.TabIndex = 6;
-            // 
-            // normasCentro1
-            // 
-            this.normasCentro1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.normasCentro1.Location = new System.Drawing.Point(250, 44);
-            this.normasCentro1.Name = "normasCentro1";
-            this.normasCentro1.Size = new System.Drawing.Size(1023, 611);
-            this.normasCentro1.TabIndex = 7;
-            // 
-            // lugaresDeInteres2
-            // 
-            this.lugaresDeInteres2.BackColor = System.Drawing.Color.White;
-            this.lugaresDeInteres2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lugaresDeInteres2.Location = new System.Drawing.Point(250, 44);
-            this.lugaresDeInteres2.Name = "lugaresDeInteres2";
-            this.lugaresDeInteres2.Size = new System.Drawing.Size(1023, 611);
-            this.lugaresDeInteres2.TabIndex = 8;
-            // 
-            // sugerencias1
-            // 
-            this.sugerencias1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sugerencias1.Location = new System.Drawing.Point(250, 44);
-            this.sugerencias1.Name = "sugerencias1";
-            this.sugerencias1.Size = new System.Drawing.Size(1023, 611);
-            this.sugerencias1.TabIndex = 9;
-            // 
-            // calendarioEscolar2
-            // 
-            this.calendarioEscolar2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.calendarioEscolar2.Location = new System.Drawing.Point(250, 44);
-            this.calendarioEscolar2.Name = "calendarioEscolar2";
-            this.calendarioEscolar2.Size = new System.Drawing.Size(1023, 611);
-            this.calendarioEscolar2.TabIndex = 10;
             // 
             // PuntoDeInformación
             // 
@@ -633,12 +625,12 @@
             this.panelHorarios.ResumeLayout(false);
             this.panelCentro.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.panelRedes.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.imgExitN)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgExitB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgExitR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -667,7 +659,7 @@
         private System.Windows.Forms.Panel panelRedes;
         private System.Windows.Forms.PictureBox imgLogo;
         private System.Windows.Forms.PictureBox imgExitR;
-        private System.Windows.Forms.PictureBox imgExitN;
+        private System.Windows.Forms.PictureBox imgExitB;
         private System.Windows.Forms.PictureBox imgMax;
         private System.Windows.Forms.PictureBox imgMin;
         private LugaresDeInteres lugaresDeInteres1;

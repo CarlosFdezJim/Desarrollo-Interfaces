@@ -185,14 +185,14 @@ namespace PuntoDeInformacion
 
         private void imgExitR_MouseUp(object sender, MouseEventArgs e)
         {
-            imgExitN.Visible = false;
-            imgExitR.Visible = true;
+            //imgExitB.Visible = false;
+            //imgExitR.Visible = true;
         }
 
         private void imgExitN_MouseUp(object sender, MouseEventArgs e)
         {
-            imgExitN.Visible = false;
-            imgExitR.Visible = true;
+            //imgExitB.Visible = false;
+            //imgExitR.Visible = true;
             
         }
 
@@ -209,7 +209,7 @@ namespace PuntoDeInformacion
 
         private void imgExitN_MouseUp(object sender, EventArgs e)
         {
-
+            
         }
 
         private void bttnCurso2_Click(object sender, EventArgs e)

@@ -243,6 +243,26 @@ namespace PuntoDeInformacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_compress_4 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_compress_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_compress_5 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_compress_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_e_3 {
             get {
                 object obj = ResourceManager.GetObject("icons8_e_3", resourceCulture);
@@ -286,6 +306,26 @@ namespace PuntoDeInformacion.Properties {
         internal static System.Drawing.Bitmap icons8_exit_21 {
             get {
                 object obj = ResourceManager.GetObject("icons8_exit_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_full_screen_2 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_full_screen_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_full_screen_3 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_full_screen_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -446,6 +486,36 @@ namespace PuntoDeInformacion.Properties {
         internal static System.Drawing.Bitmap icons8_multiply_1 {
             get {
                 object obj = ResourceManager.GetObject("icons8_multiply_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_multiply_3 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_multiply_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_multiply_4 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_multiply_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_multiply_5 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_multiply_5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

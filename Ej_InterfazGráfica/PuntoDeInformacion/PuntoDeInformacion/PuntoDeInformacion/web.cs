@@ -48,20 +48,26 @@ namespace PuntoDeInformacion
             if (pnlMenu.Width == 170)
             {
                 pnlMenu.Width = 60;
-                panelWebBrowserMaps.Width = 60;
                 bttnPlanta1.Text = "";
+                bttnPlanta1.ImageAlign = ContentAlignment.MiddleCenter;
                 bttnPlanta2.Text = "";
+                bttnPlanta2.ImageAlign = ContentAlignment.MiddleCenter;
                 bttnPlanta3.Text = "";
+                bttnPlanta3.ImageAlign = ContentAlignment.MiddleCenter;
                 bttnPlantaExteriores.Text = "";
+                bttnPlantaExteriores.ImageAlign = ContentAlignment.MiddleCenter;
             }
             else
             {
                 pnlMenu.Width = 170;
-                panelWebBrowserMaps.Width = 170;
                 bttnPlanta1.Text = "1º PLANTA";
+                bttnPlanta1.ImageAlign = ContentAlignment.MiddleLeft;
                 bttnPlanta2.Text = "2º PLANTA";
+                bttnPlanta2.ImageAlign = ContentAlignment.MiddleLeft;
                 bttnPlanta3.Text = "3º PLANTA";
+                bttnPlanta3.ImageAlign = ContentAlignment.MiddleLeft;
                 bttnPlantaExteriores.Text = "EXTERIORES";
+                bttnPlantaExteriores.ImageAlign = ContentAlignment.MiddleLeft;
             }
         }
 
