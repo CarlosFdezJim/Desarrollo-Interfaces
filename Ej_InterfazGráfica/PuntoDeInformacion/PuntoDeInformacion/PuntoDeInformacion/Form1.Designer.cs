@@ -672,7 +672,7 @@
         private System.Windows.Forms.PictureBox imgMin;
         private LugaresDeInteres lugaresDeInteres1;
         private Inicio inicio1;
-        private PaginaCentro paginaCentro1;
+        //private PaginaCentro paginaCentro1;
         private EquipoDirectivo equipoDirectivo1;
         private web web1;
         //private CalendarioEscolar calendarioEscolar1;

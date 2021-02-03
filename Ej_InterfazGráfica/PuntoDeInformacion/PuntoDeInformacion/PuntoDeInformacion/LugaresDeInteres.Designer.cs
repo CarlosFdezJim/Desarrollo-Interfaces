@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.bttnPapelerias = new System.Windows.Forms.Button();
+            this.bttnAparcamientos = new System.Windows.Forms.Button();
             this.bttnLibrerias = new System.Windows.Forms.Button();
             this.bttnCafeterias = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gMapControl1 = new GMap.NET.WindowsForms.GMapControl();
+            this.bttnLugaresDeInteres = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -44,8 +44,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(239)))), ((int)(((byte)(215)))));
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.bttnPapelerias);
+            this.panel1.Controls.Add(this.bttnLugaresDeInteres);
+            this.panel1.Controls.Add(this.bttnAparcamientos);
             this.panel1.Controls.Add(this.bttnLibrerias);
             this.panel1.Controls.Add(this.bttnCafeterias);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
@@ -56,27 +56,17 @@
             this.panel1.Size = new System.Drawing.Size(200, 605);
             this.panel1.TabIndex = 0;
             // 
-            // button3
+            // bttnAparcamientos
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(0, 377);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 70);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "CAFETERIAS";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // bttnPapelerias
-            // 
-            this.bttnPapelerias.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bttnPapelerias.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnPapelerias.Location = new System.Drawing.Point(0, 307);
-            this.bttnPapelerias.Name = "bttnPapelerias";
-            this.bttnPapelerias.Size = new System.Drawing.Size(200, 70);
-            this.bttnPapelerias.TabIndex = 5;
-            this.bttnPapelerias.Text = "Papelerías";
-            this.bttnPapelerias.UseVisualStyleBackColor = true;
+            this.bttnAparcamientos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttnAparcamientos.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnAparcamientos.Location = new System.Drawing.Point(0, 307);
+            this.bttnAparcamientos.Name = "bttnAparcamientos";
+            this.bttnAparcamientos.Size = new System.Drawing.Size(200, 70);
+            this.bttnAparcamientos.TabIndex = 5;
+            this.bttnAparcamientos.Text = "Aparcamientos";
+            this.bttnAparcamientos.UseVisualStyleBackColor = true;
+            this.bttnAparcamientos.Click += new System.EventHandler(this.bttnPapelerias_Click);
             // 
             // bttnLibrerias
             // 
@@ -88,6 +78,7 @@
             this.bttnLibrerias.TabIndex = 4;
             this.bttnLibrerias.Text = "Librerías";
             this.bttnLibrerias.UseVisualStyleBackColor = true;
+            this.bttnLibrerias.Click += new System.EventHandler(this.bttnLibrerias_Click);
             // 
             // bttnCafeterias
             // 
@@ -105,9 +96,9 @@
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(239)))), ((int)(((byte)(215)))));
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 446);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 453);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 159);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 152);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // panel3
@@ -154,6 +145,18 @@
             this.gMapControl1.TabIndex = 0;
             this.gMapControl1.Zoom = 0D;
             // 
+            // bttnLugaresDeInteres
+            // 
+            this.bttnLugaresDeInteres.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttnLugaresDeInteres.Font = new System.Drawing.Font("Open Sans", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnLugaresDeInteres.Location = new System.Drawing.Point(0, 377);
+            this.bttnLugaresDeInteres.Name = "bttnLugaresDeInteres";
+            this.bttnLugaresDeInteres.Size = new System.Drawing.Size(200, 70);
+            this.bttnLugaresDeInteres.TabIndex = 6;
+            this.bttnLugaresDeInteres.Text = "Lugares de interés";
+            this.bttnLugaresDeInteres.UseVisualStyleBackColor = true;
+            this.bttnLugaresDeInteres.Click += new System.EventHandler(this.bttnLugaresDeInteres_Click);
+            // 
             // LugaresDeInteres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -174,11 +177,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private GMap.NET.WindowsForms.GMapControl gMapControl1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button bttnPapelerias;
+        private System.Windows.Forms.Button bttnAparcamientos;
         private System.Windows.Forms.Button bttnLibrerias;
         private System.Windows.Forms.Button bttnCafeterias;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button bttnLugaresDeInteres;
     }
 }

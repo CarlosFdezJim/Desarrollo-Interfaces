@@ -15,32 +15,32 @@ namespace PuntoDeInformacion
         public web()
         {
             InitializeComponent();
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Laura/Planos_Laura/Planos_Centro_001.png");
+            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_001.png");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Laura/Planos_Laura/Planos_Centro_001.png");
+
         }
 
         private void bttnPlanta1_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Laura/Planos_Laura/Planos_Centro_001.png");
+            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_001.png");
         }
 
         private void bttnPlanta2_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Laura/Planos_Laura/Planos_Centro_002.png");
+            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_002.png");
         }
 
         private void bttnPlanta3_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Laura/Planos_Laura/Planos_Centro_003.png");
+            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_003.png");
         }
 
         private void bttnPlantaExteriores_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Laura/Planos_Laura/Planos_Centro_004.png");
+            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_004.png");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
