@@ -24,3 +24,9 @@ C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráf
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\AxInterop.AcroPDFLib.dll
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.csproj.ResolveComReference.cache
 C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\bin\Debug\PuntoDeInformacion.exe.manifest
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\bin\Debug\PuntoDeInformacion.application
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\bin\Debug\PuntoDeInformacion.xml
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.TrustInfo.xml
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.exe.manifest
+C:\Users\carlo\source\repos\CarlosFdezJim\Desarrollo-Interfaces\Ej_InterfazGráfica\PuntoDeInformacion\PuntoDeInformacion\PuntoDeInformacion\obj\Debug\PuntoDeInformacion.application

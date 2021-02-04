@@ -16,12 +16,11 @@ namespace PuntoDeInformacion
         public CalendarioEscolar()
         {
             InitializeComponent();
-            //axAcroPDF1.LoadFile(@"C:/Users/carlo/source/repos/CarlosFdezJim/Desarrollo-Interfaces/Ej_InterfazGráfica/PuntoDeInformacion/PuntoDeInformacion/calendario_escolar_sevilla_20-21.pdf");
-            axAcroPDF1.LoadFile(@"..\..\Resources\calendario.pdf");
 
-            //string directorio = Path.Combine(Path.GetDirectoryName(AppDomain.CurrentDomain.BaseDirectory));
-            //string path = Path.Combine(directorio, "calendario.pdf");
-            //axAcroPDF1.LoadFile(path);
+            //Cargar Fichero en el Acrobat Reader
+            String openPDFFile = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\calendario.pdf";//PDF DOC name
+            System.IO.File.WriteAllBytes(openPDFFile, Properties.Resources.calendario);
+            axAcroPDF1.LoadFile(openPDFFile);
         }
     }
 }

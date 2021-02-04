@@ -36,6 +36,7 @@
             // 
             // bttnEnviar
             // 
+            this.bttnEnviar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bttnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.bttnEnviar.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnEnviar.Location = new System.Drawing.Point(402, 460);
@@ -48,6 +49,7 @@
             // 
             // lbltitulo
             // 
+            this.lbltitulo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbltitulo.AutoSize = true;
             this.lbltitulo.Font = new System.Drawing.Font("Open Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitulo.Location = new System.Drawing.Point(205, 61);
@@ -58,6 +60,7 @@
             // 
             // richTextBoxSugerencias
             // 
+            this.richTextBoxSugerencias.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.richTextBoxSugerencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(232)))), ((int)(((byte)(235)))));
             this.richTextBoxSugerencias.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBoxSugerencias.Location = new System.Drawing.Point(210, 180);
@@ -68,6 +71,7 @@
             // 
             // lblSugerencia
             // 
+            this.lblSugerencia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblSugerencia.AutoSize = true;
             this.lblSugerencia.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSugerencia.Location = new System.Drawing.Point(206, 131);
