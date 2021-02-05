@@ -36,7 +36,9 @@ namespace PuntoDeInformacionCristoRey
 
         private void imgMax_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;        
+            this.WindowState = FormWindowState.Maximized;
+            imgMin.Visible = true;
+            imgMax.Visible = false;
         }
 
         private void panelRedes_MouseDown(object sender, MouseEventArgs e)
@@ -44,6 +46,14 @@ namespace PuntoDeInformacionCristoRey
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void imgMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            imgMin.Visible = false;
+            imgMax.Visible = true;
+        }
+
         #endregion
 
         #region Menú
@@ -171,6 +181,10 @@ namespace PuntoDeInformacionCristoRey
 
         }
 
+
+
         #endregion Menú
+
+
     }
 }

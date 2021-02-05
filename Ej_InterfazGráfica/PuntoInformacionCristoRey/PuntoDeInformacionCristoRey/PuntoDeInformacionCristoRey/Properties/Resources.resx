@@ -127,9 +127,6 @@
   <data name="icons8_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_2_2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconNormas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconNormas.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconMax1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMax1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,8 +136,14 @@
   <data name="iconExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconExit.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendario.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="icons8_menu_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_menu_1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NormasCR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NormasCR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconCentro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconCentro.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +151,14 @@
   <data name="iconCitaPrevia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconCitaPrevia.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconOrientador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconOrientador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8_e_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_e_3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconPAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconPAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconHorarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconHorarios.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +166,8 @@
   <data name="iconEquipoDirectivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconEquipoDirectivo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconOrientador" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconOrientador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconNormas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconNormas.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo_CristoRey_Movil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_CristoRey_Movil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +178,8 @@
   <data name="logo_CristoRey_Final" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_CristoRey_Final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconPAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconPAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconSugerencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconSugerencias.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconSecretaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconSecretaria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,9 +202,6 @@
   <data name="iconDirectora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconDirectora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconSugerencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconSugerencias.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconAdmin.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,10 +211,7 @@
   <data name="iconProfesor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconProfesor1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NormasCR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NormasCR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calendario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendario.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="iconMin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconMin.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

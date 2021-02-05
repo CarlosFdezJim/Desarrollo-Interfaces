@@ -113,7 +113,7 @@
             this.imgMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMax.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgMax.Image = global::PuntoDeInformacionCristoRey.Properties.Resources.iconMax1;
-            this.imgMax.Location = new System.Drawing.Point(945, 9);
+            this.imgMax.Location = new System.Drawing.Point(945, 10);
             this.imgMax.Name = "imgMax";
             this.imgMax.Size = new System.Drawing.Size(30, 24);
             this.imgMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -125,6 +125,7 @@
             // 
             this.imgMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgMin.Image = global::PuntoDeInformacionCristoRey.Properties.Resources.iconMin;
             this.imgMin.Location = new System.Drawing.Point(945, 9);
             this.imgMin.Name = "imgMin";
             this.imgMin.Size = new System.Drawing.Size(30, 24);
@@ -132,6 +133,7 @@
             this.imgMin.TabIndex = 1;
             this.imgMin.TabStop = false;
             this.imgMin.Visible = false;
+            this.imgMin.Click += new System.EventHandler(this.imgMin_Click);
             // 
             // imgExitR
             // 
