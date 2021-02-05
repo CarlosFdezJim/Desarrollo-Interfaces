@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WnJwdTmf0wsZRlxHSeWkTApHk3+15ZDJ1RqHinXplbc=</dsig:DigestValue>
+        <dsig:DigestValue>AbzJXg2hqlQik4+w8xoCkwqKgrBOsj4sDnSmHkJLpwk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -86,19 +86,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zkurmFi+BsGYmkHvRQL8xi9LC4L7gWdODWNH/1bDO+w=</dsig:DigestValue>
+        <dsig:DigestValue>jp9ulfqn4ZytDsDw2kEP4k7H8DQPuqF4Di+S3yx/Ic4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PuntoDeInformacion.exe" size="2447840">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PuntoDeInformacion.exe" size="2455520">
       <assemblyIdentity name="PuntoDeInformacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4ifBAF17YPTh2iXuG7Hkuqt6Fji4/ouIaB1mchERbQA=</dsig:DigestValue>
+        <dsig:DigestValue>9iZL3EW0zaKKsuhUEKLR1AnfnTG3UaKWL3Lj4BrZLRA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

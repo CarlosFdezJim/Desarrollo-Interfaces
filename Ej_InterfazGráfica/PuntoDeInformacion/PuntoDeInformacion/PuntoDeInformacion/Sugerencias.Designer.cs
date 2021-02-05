@@ -31,7 +31,8 @@
             this.bttnEnviar = new System.Windows.Forms.Button();
             this.lbltitulo = new System.Windows.Forms.Label();
             this.richTextBoxSugerencias = new System.Windows.Forms.RichTextBox();
-            this.lblSugerencia = new System.Windows.Forms.Label();
+            this.lblAsunto = new System.Windows.Forms.Label();
+            this.txtAsunto = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // bttnEnviar
@@ -39,10 +40,10 @@
             this.bttnEnviar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bttnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.bttnEnviar.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnEnviar.Location = new System.Drawing.Point(402, 460);
+            this.bttnEnviar.Location = new System.Drawing.Point(388, 508);
             this.bttnEnviar.Name = "bttnEnviar";
             this.bttnEnviar.Size = new System.Drawing.Size(144, 43);
-            this.bttnEnviar.TabIndex = 0;
+            this.bttnEnviar.TabIndex = 2;
             this.bttnEnviar.Text = "Enviar";
             this.bttnEnviar.UseVisualStyleBackColor = true;
             this.bttnEnviar.Click += new System.EventHandler(this.bttnEnviar_Click);
@@ -62,30 +63,43 @@
             // 
             this.richTextBoxSugerencias.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.richTextBoxSugerencias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(232)))), ((int)(((byte)(235)))));
+            this.richTextBoxSugerencias.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBoxSugerencias.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBoxSugerencias.Location = new System.Drawing.Point(210, 180);
+            this.richTextBoxSugerencias.Location = new System.Drawing.Point(210, 233);
             this.richTextBoxSugerencias.Name = "richTextBoxSugerencias";
             this.richTextBoxSugerencias.Size = new System.Drawing.Size(550, 248);
-            this.richTextBoxSugerencias.TabIndex = 2;
+            this.richTextBoxSugerencias.TabIndex = 1;
             this.richTextBoxSugerencias.Text = "";
             // 
-            // lblSugerencia
+            // lblAsunto
             // 
-            this.lblSugerencia.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblSugerencia.AutoSize = true;
-            this.lblSugerencia.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSugerencia.Location = new System.Drawing.Point(206, 131);
-            this.lblSugerencia.Name = "lblSugerencia";
-            this.lblSugerencia.Size = new System.Drawing.Size(98, 22);
-            this.lblSugerencia.TabIndex = 3;
-            this.lblSugerencia.Text = "Sugerencia:";
+            this.lblAsunto.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblAsunto.AutoSize = true;
+            this.lblAsunto.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAsunto.Location = new System.Drawing.Point(206, 128);
+            this.lblAsunto.Name = "lblAsunto";
+            this.lblAsunto.Size = new System.Drawing.Size(68, 22);
+            this.lblAsunto.TabIndex = 3;
+            this.lblAsunto.Text = "Asunto:";
+            // 
+            // txtAsunto
+            // 
+            this.txtAsunto.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtAsunto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(232)))), ((int)(((byte)(235)))));
+            this.txtAsunto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAsunto.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAsunto.Location = new System.Drawing.Point(210, 178);
+            this.txtAsunto.Name = "txtAsunto";
+            this.txtAsunto.Size = new System.Drawing.Size(322, 22);
+            this.txtAsunto.TabIndex = 0;
             // 
             // Sugerencias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(179)))), ((int)(((byte)(187)))));
-            this.Controls.Add(this.lblSugerencia);
+            this.Controls.Add(this.txtAsunto);
+            this.Controls.Add(this.lblAsunto);
             this.Controls.Add(this.richTextBoxSugerencias);
             this.Controls.Add(this.lbltitulo);
             this.Controls.Add(this.bttnEnviar);
@@ -101,6 +115,7 @@
         private System.Windows.Forms.Button bttnEnviar;
         private System.Windows.Forms.Label lbltitulo;
         private System.Windows.Forms.RichTextBox richTextBoxSugerencias;
-        private System.Windows.Forms.Label lblSugerencia;
+        private System.Windows.Forms.Label lblAsunto;
+        private System.Windows.Forms.TextBox txtAsunto;
     }
 }

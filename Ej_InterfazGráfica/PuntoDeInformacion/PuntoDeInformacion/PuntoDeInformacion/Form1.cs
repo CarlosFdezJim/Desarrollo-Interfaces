@@ -16,7 +16,7 @@ namespace PuntoDeInformacion
         public PuntoDeInformación()
         {
             InitializeComponent();
-            inicio2.BringToFront();
+            //inicio2.BringToFront();
             customizeDesing();
         }
 
@@ -62,7 +62,7 @@ namespace PuntoDeInformacion
         #region Menu
         private void bttnInicio_Click(object sender, EventArgs e)
         {
-            inicio2.BringToFront();
+            //inicio2.BringToFront();
         }
         private void bttnCentro_Click(object sender, EventArgs e)
         {
@@ -71,37 +71,37 @@ namespace PuntoDeInformacion
         #region Centro
         private void bttnCentroWeb_Click(object sender, EventArgs e)
         {
-            paginaCentro3.BringToFront();
+            //paginaCentro3.BringToFront();
             hideSubmenu();
         }
 
         private void bttnCentroED_Click(object sender, EventArgs e)
         {
-            equipoDirectivo2.BringToFront();
+            //equipoDirectivo2.BringToFront();
             hideSubmenu();
         }
         
         private void bttnCentroUbicate_Click(object sender, EventArgs e)
         {
-            web2.BringToFront();
+            //web2.BringToFront();
             hideSubmenu();
         }
 
         private void bttnCentroEstudios_Click(object sender, EventArgs e)
         {
-            calendarioEscolar2.BringToFront();
+            //calendarioEscolar2.BringToFront();
             hideSubmenu();
         }
 
         private void bttnCentroNormas_Click(object sender, EventArgs e)
         {
-            normasCentro1.BringToFront();
+            //normasCentro1.BringToFront();
             hideSubmenu();
         }
         #endregion
         private void bttnLugares_Click(object sender, EventArgs e)
         {
-            lugaresDeInteres2.BringToFront();
+            //lugaresDeInteres2.BringToFront();
             hideSubmenu();
         }
 
@@ -133,7 +133,7 @@ namespace PuntoDeInformacion
         #endregion
         private void bttnFAQ_Click(object sender, EventArgs e)
         {
-            sugerencias1.BringToFront();
+            //sugerencias1.BringToFront();
         }
         #endregion
 
@@ -218,6 +218,11 @@ namespace PuntoDeInformacion
         }
 
         private void bttnCurso3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelRedes_Paint(object sender, PaintEventArgs e)
         {
 
         }

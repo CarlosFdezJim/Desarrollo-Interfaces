@@ -38,7 +38,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\PuntoDeInformacion.xml</DocumentationFile>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -50,7 +51,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8_system_information.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>5E01573386102D5EE838E210725A24A126DA03E8</ManifestCertificateThumbprint>
@@ -199,172 +201,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icons8_system_information.ico" />
     <Content Include="Resources\calendario.pdf" />
     <None Include="PuntoDeInformacion_TemporaryKey.pfx" />
-    <None Include="Resources\icons8_call.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_home.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_map_pinpoint.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_question_mark.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_timetable.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_menu.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_menu_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo_CristoRey_Final.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_website.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_compress_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_multiply.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_resize_vertical_4.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_multiply_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_organization_chart_people.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_marker.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_book.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_rules.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_exit.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_exit_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_exit_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_exit_21.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo_CristoRey_Movil.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_school.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_1_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_2_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_3_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_1_3.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_2_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_3_3.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_e_3.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jose_gras.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_user.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pas.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\NormasCR.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NormasCR1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_administrator_male_50px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_administrator_male_50px1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_bald_man_in_green_jacket_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_brown_short_hair_lady_in_red_shirt.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_businesswoman_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_long_brunette_hair_lady_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_long_brunette_hair_lady_2.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_in_red_glasses_and_yellow_shirt.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_with_beard_in_green_t_shirt.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_with_mustaches_in_green_shirt.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_user_male_1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_with_beard_in_jacket_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_red_short_hair_lady_in_yellow_shirt_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_with_beard_in_blue_glasses_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_with_beard_in_green_t_shirt_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_bald_man_in_green_jacket_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_man_with_beard_in_suit_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_short_hair_lady_in_blue_shirt_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_blond_curly_hair_business_lady_100px.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8_brown_pigtail_hair_lady_100px.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AcroPDFLib">
@@ -386,13 +227,6 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8_multiply_5.ico" />
-    <None Include="Resources\icons8_multiply_4.ico" />
-    <None Include="Resources\icons8_multiply_3.ico" />
-    <None Include="Resources\icons8_full_screen_3.ico" />
-    <None Include="Resources\icons8_full_screen_2.ico" />
-    <None Include="Resources\icons8_compress_5.ico" />
-    <None Include="Resources\icons8_compress_4.ico" />
     <Content Include="Resources\Planos_Centro_001.png" />
     <Content Include="Resources\Planos_Centro_002.png" />
     <Content Include="Resources\Planos_Centro_003.png" />

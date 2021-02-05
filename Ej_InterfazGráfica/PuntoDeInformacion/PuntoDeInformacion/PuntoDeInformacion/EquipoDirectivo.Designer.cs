@@ -258,7 +258,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_green_t_shirt_100px;
+//            this.pictureBox5.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_green_t_shirt_100px;
             this.pictureBox5.Location = new System.Drawing.Point(802, 342);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(106, 105);
@@ -268,7 +268,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_blue_glasses_100px;
+//            this.pictureBox6.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_blue_glasses_100px;
             this.pictureBox6.Location = new System.Drawing.Point(576, 342);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(106, 105);
@@ -278,7 +278,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::PuntoDeInformacion.Properties.Resources.icons8_brown_pigtail_hair_lady_100px;
+//            this.pictureBox7.Image = global::PuntoDeInformacion.Properties.Resources.icons8_brown_pigtail_hair_lady_100px;
             this.pictureBox7.Location = new System.Drawing.Point(314, 342);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(106, 105);
@@ -288,7 +288,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_jacket_100px;
+//            this.pictureBox8.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_jacket_100px;
             this.pictureBox8.Location = new System.Drawing.Point(72, 342);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(106, 105);
@@ -298,7 +298,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_suit_100px;
+//            this.pictureBox4.Image = global::PuntoDeInformacion.Properties.Resources.icons8_man_with_beard_in_suit_100px;
             this.pictureBox4.Location = new System.Drawing.Point(802, 69);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(106, 105);
@@ -308,7 +308,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::PuntoDeInformacion.Properties.Resources.icons8_bald_man_in_green_jacket_100px;
+//            this.pictureBox3.Image = global::PuntoDeInformacion.Properties.Resources.icons8_bald_man_in_green_jacket_100px;
             this.pictureBox3.Location = new System.Drawing.Point(576, 69);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(106, 105);
@@ -318,7 +318,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::PuntoDeInformacion.Properties.Resources.icons8_blond_curly_hair_business_lady_100px;
+//            this.pictureBox2.Image = global::PuntoDeInformacion.Properties.Resources.icons8_blond_curly_hair_business_lady_100px;
             this.pictureBox2.Location = new System.Drawing.Point(314, 69);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(106, 105);
@@ -328,7 +328,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PuntoDeInformacion.Properties.Resources.icons8_short_hair_lady_in_blue_shirt_100px;
+//            this.pictureBox1.Image = global::PuntoDeInformacion.Properties.Resources.icons8_short_hair_lady_in_blue_shirt_100px;
             this.pictureBox1.Location = new System.Drawing.Point(72, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 105);

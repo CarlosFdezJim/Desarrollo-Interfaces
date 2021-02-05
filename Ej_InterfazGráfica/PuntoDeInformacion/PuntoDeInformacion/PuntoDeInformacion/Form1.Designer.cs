@@ -38,23 +38,11 @@
             this.panelCentro = new System.Windows.Forms.Panel();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelRedes = new System.Windows.Forms.Panel();
-            this.calendarioEscolar2 = new PuntoDeInformacion.CalendarioEscolar();
-            this.sugerencias1 = new PuntoDeInformacion.Sugerencias();
-            this.lugaresDeInteres2 = new PuntoDeInformacion.LugaresDeInteres();
-            this.normasCentro1 = new PuntoDeInformacion.NormasCentro();
-            this.web2 = new PuntoDeInformacion.web();
-            this.equipoDirectivo2 = new PuntoDeInformacion.EquipoDirectivo();
-            this.paginaCentro3 = new PuntoDeInformacion.PaginaCentro();
-            this.paginaCentro2 = new PuntoDeInformacion.PaginaCentro();
-            this.inicio2 = new PuntoDeInformacion.Inicio();
-            this.inicio1 = new PuntoDeInformacion.Inicio();
-            this.lugaresDeInteres1 = new PuntoDeInformacion.LugaresDeInteres();
-            this.equipoDirectivo1 = new PuntoDeInformacion.EquipoDirectivo();
-            this.web1 = new PuntoDeInformacion.web();
             this.imgExitB = new System.Windows.Forms.PictureBox();
             this.imgMax = new System.Windows.Forms.PictureBox();
             this.imgMin = new System.Windows.Forms.PictureBox();
             this.imgExitR = new System.Windows.Forms.PictureBox();
+            this.bttnAdmin = new System.Windows.Forms.Button();
             this.bttnSugerencias = new System.Windows.Forms.Button();
             this.bttnHorarios = new System.Windows.Forms.Button();
             this.bttnCitaPrevia = new System.Windows.Forms.Button();
@@ -83,6 +71,7 @@
             // 
             this.panelSideMenu.AutoScroll = true;
             this.panelSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(104)))), ((int)(((byte)(120)))));
+            this.panelSideMenu.Controls.Add(this.bttnAdmin);
             this.panelSideMenu.Controls.Add(this.bttnSugerencias);
             this.panelSideMenu.Controls.Add(this.panelHorarios);
             this.panelSideMenu.Controls.Add(this.bttnHorarios);
@@ -95,7 +84,7 @@
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(250, 655);
+            this.panelSideMenu.Size = new System.Drawing.Size(250, 693);
             this.panelSideMenu.TabIndex = 0;
             // 
             // panelHorarios
@@ -210,129 +199,19 @@
             this.panelRedes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelRedes.Location = new System.Drawing.Point(250, 0);
             this.panelRedes.Name = "panelRedes";
-            this.panelRedes.Size = new System.Drawing.Size(1023, 38);
+            this.panelRedes.Size = new System.Drawing.Size(985, 44);
             this.panelRedes.TabIndex = 1;
+            this.panelRedes.Paint += new System.Windows.Forms.PaintEventHandler(this.panelRedes_Paint);
             this.panelRedes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelRedes_MouseDown);
-            // 
-            // calendarioEscolar2
-            // 
-            this.calendarioEscolar2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.calendarioEscolar2.Location = new System.Drawing.Point(250, 38);
-            this.calendarioEscolar2.Name = "calendarioEscolar2";
-            this.calendarioEscolar2.Size = new System.Drawing.Size(1023, 617);
-            this.calendarioEscolar2.TabIndex = 10;
-            // 
-            // sugerencias1
-            // 
-            this.sugerencias1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sugerencias1.Location = new System.Drawing.Point(250, 38);
-            this.sugerencias1.Name = "sugerencias1";
-            this.sugerencias1.Size = new System.Drawing.Size(1023, 617);
-            this.sugerencias1.TabIndex = 9;
-            // 
-            // lugaresDeInteres2
-            // 
-            this.lugaresDeInteres2.BackColor = System.Drawing.Color.White;
-            this.lugaresDeInteres2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lugaresDeInteres2.Location = new System.Drawing.Point(250, 38);
-            this.lugaresDeInteres2.Name = "lugaresDeInteres2";
-            this.lugaresDeInteres2.Size = new System.Drawing.Size(1023, 617);
-            this.lugaresDeInteres2.TabIndex = 8;
-            // 
-            // normasCentro1
-            // 
-            this.normasCentro1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.normasCentro1.Location = new System.Drawing.Point(250, 38);
-            this.normasCentro1.Name = "normasCentro1";
-            this.normasCentro1.Size = new System.Drawing.Size(1023, 617);
-            this.normasCentro1.TabIndex = 7;
-            // 
-            // web2
-            // 
-            this.web2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.web2.Location = new System.Drawing.Point(250, 38);
-            this.web2.Name = "web2";
-            this.web2.Size = new System.Drawing.Size(1023, 617);
-            this.web2.TabIndex = 6;
-            // 
-            // equipoDirectivo2
-            // 
-            this.equipoDirectivo2.BackColor = System.Drawing.Color.White;
-            this.equipoDirectivo2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.equipoDirectivo2.Location = new System.Drawing.Point(250, 38);
-            this.equipoDirectivo2.Name = "equipoDirectivo2";
-            this.equipoDirectivo2.Size = new System.Drawing.Size(1023, 617);
-            this.equipoDirectivo2.TabIndex = 5;
-            // 
-            // paginaCentro3
-            // 
-            this.paginaCentro3.BackColor = System.Drawing.Color.White;
-            this.paginaCentro3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paginaCentro3.Location = new System.Drawing.Point(250, 38);
-            this.paginaCentro3.Name = "paginaCentro3";
-            this.paginaCentro3.Size = new System.Drawing.Size(1023, 617);
-            this.paginaCentro3.TabIndex = 4;
-            // 
-            // paginaCentro2
-            // 
-            this.paginaCentro2.BackColor = System.Drawing.Color.White;
-            this.paginaCentro2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paginaCentro2.Location = new System.Drawing.Point(250, 38);
-            this.paginaCentro2.Name = "paginaCentro2";
-            this.paginaCentro2.Size = new System.Drawing.Size(1023, 617);
-            this.paginaCentro2.TabIndex = 3;
-            // 
-            // inicio2
-            // 
-            this.inicio2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
-            this.inicio2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.inicio2.Location = new System.Drawing.Point(250, 38);
-            this.inicio2.Name = "inicio2";
-            this.inicio2.Size = new System.Drawing.Size(1023, 617);
-            this.inicio2.TabIndex = 2;
-            // 
-            // inicio1
-            // 
-            this.inicio1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
-            this.inicio1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.inicio1.Location = new System.Drawing.Point(250, 50);
-            this.inicio1.Name = "inicio1";
-            this.inicio1.Size = new System.Drawing.Size(1023, 605);
-            this.inicio1.TabIndex = 2;
-            // 
-            // lugaresDeInteres1
-            // 
-            this.lugaresDeInteres1.BackColor = System.Drawing.Color.White;
-            this.lugaresDeInteres1.Location = new System.Drawing.Point(3, 0);
-            this.lugaresDeInteres1.Name = "lugaresDeInteres1";
-            this.lugaresDeInteres1.Size = new System.Drawing.Size(1020, 605);
-            this.lugaresDeInteres1.TabIndex = 0;
-            // 
-            // equipoDirectivo1
-            // 
-            this.equipoDirectivo1.BackColor = System.Drawing.Color.White;
-            this.equipoDirectivo1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.equipoDirectivo1.Location = new System.Drawing.Point(250, 50);
-            this.equipoDirectivo1.Name = "equipoDirectivo1";
-            this.equipoDirectivo1.Size = new System.Drawing.Size(1023, 605);
-            this.equipoDirectivo1.TabIndex = 4;
-            // 
-            // web1
-            // 
-            this.web1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.web1.Location = new System.Drawing.Point(250, 50);
-            this.web1.Name = "web1";
-            this.web1.Size = new System.Drawing.Size(1023, 605);
-            this.web1.TabIndex = 5;
             // 
             // imgExitB
             // 
             this.imgExitB.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgExitB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgExitB.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_4;
-            this.imgExitB.Location = new System.Drawing.Point(981, 9);
+//            this.imgExitB.Image = global::PuntoDeInformacion.Properties.Resources.iconExit;
+            this.imgExitB.Location = new System.Drawing.Point(861, 9);
             this.imgExitB.Name = "imgExitB";
-            this.imgExitB.Size = new System.Drawing.Size(30, 26);
+            this.imgExitB.Size = new System.Drawing.Size(28, 24);
             this.imgExitB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.imgExitB.TabIndex = 3;
             this.imgExitB.TabStop = false;
@@ -344,8 +223,8 @@
             // 
             this.imgMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMax.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgMax.Image = global::PuntoDeInformacion.Properties.Resources.icons8_full_screen_3;
-            this.imgMax.Location = new System.Drawing.Point(933, 9);
+//            this.imgMax.Image = global::PuntoDeInformacion.Properties.Resources.iconMax1;
+            this.imgMax.Location = new System.Drawing.Point(825, 9);
             this.imgMax.Name = "imgMax";
             this.imgMax.Size = new System.Drawing.Size(30, 24);
             this.imgMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -357,8 +236,8 @@
             // 
             this.imgMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgMin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgMin.Image = global::PuntoDeInformacion.Properties.Resources.icons8_compress_4;
-            this.imgMin.Location = new System.Drawing.Point(933, 9);
+//            this.imgMin.Image = global::PuntoDeInformacion.Properties.Resources.iconMin;
+            this.imgMin.Location = new System.Drawing.Point(895, 9);
             this.imgMin.Name = "imgMin";
             this.imgMin.Size = new System.Drawing.Size(30, 24);
             this.imgMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -371,8 +250,8 @@
             // 
             this.imgExitR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.imgExitR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.imgExitR.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_5;
-            this.imgExitR.Location = new System.Drawing.Point(981, 9);
+//            this.imgExitR.Image = global::PuntoDeInformacion.Properties.Resources.icons8_multiply_5;
+            this.imgExitR.Location = new System.Drawing.Point(943, 9);
             this.imgExitR.Name = "imgExitR";
             this.imgExitR.Size = new System.Drawing.Size(30, 24);
             this.imgExitR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -380,7 +259,25 @@
             this.imgExitR.TabStop = false;
             this.imgExitR.Visible = false;
             this.imgExitR.Click += new System.EventHandler(this.imgExitR_Click);
-            this.imgExitR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitR_MouseUp);
+            //this.imgExitR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.imgExitR_MouseUp);
+            // 
+            // bttnAdmin
+            // 
+            this.bttnAdmin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bttnAdmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bttnAdmin.FlatAppearance.BorderSize = 0;
+            this.bttnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttnAdmin.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnAdmin.ForeColor = System.Drawing.Color.White;
+//            this.bttnAdmin.Image = global::PuntoDeInformacion.Properties.Resources.iconAdmin;
+            this.bttnAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bttnAdmin.Location = new System.Drawing.Point(0, 816);
+            this.bttnAdmin.Name = "bttnAdmin";
+            this.bttnAdmin.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.bttnAdmin.Size = new System.Drawing.Size(233, 45);
+            this.bttnAdmin.TabIndex = 9;
+            this.bttnAdmin.Text = "ADMINISTRADOR";
+            this.bttnAdmin.UseVisualStyleBackColor = true;
             // 
             // bttnSugerencias
             // 
@@ -390,7 +287,7 @@
             this.bttnSugerencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnSugerencias.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnSugerencias.ForeColor = System.Drawing.Color.White;
-            this.bttnSugerencias.Image = global::PuntoDeInformacion.Properties.Resources.icons8_question_mark;
+//            this.bttnSugerencias.Image = global::PuntoDeInformacion.Properties.Resources.iconSugerencias;
             this.bttnSugerencias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnSugerencias.Location = new System.Drawing.Point(0, 771);
             this.bttnSugerencias.Name = "bttnSugerencias";
@@ -409,7 +306,7 @@
             this.bttnHorarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnHorarios.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnHorarios.ForeColor = System.Drawing.Color.White;
-            this.bttnHorarios.Image = global::PuntoDeInformacion.Properties.Resources.icons8_timetable;
+//            this.bttnHorarios.Image = global::PuntoDeInformacion.Properties.Resources.iconHorarios;
             this.bttnHorarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnHorarios.Location = new System.Drawing.Point(0, 550);
             this.bttnHorarios.Name = "bttnHorarios";
@@ -428,7 +325,7 @@
             this.bttnCitaPrevia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCitaPrevia.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCitaPrevia.ForeColor = System.Drawing.Color.White;
-            this.bttnCitaPrevia.Image = global::PuntoDeInformacion.Properties.Resources.icons8_call;
+//            this.bttnCitaPrevia.Image = global::PuntoDeInformacion.Properties.Resources.iconCitaPrevia;
             this.bttnCitaPrevia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCitaPrevia.Location = new System.Drawing.Point(0, 505);
             this.bttnCitaPrevia.Name = "bttnCitaPrevia";
@@ -447,7 +344,7 @@
             this.bttnLugares.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnLugares.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnLugares.ForeColor = System.Drawing.Color.White;
-            this.bttnLugares.Image = global::PuntoDeInformacion.Properties.Resources.icons8_map_pinpoint;
+//            this.bttnLugares.Image = global::PuntoDeInformacion.Properties.Resources.iconLugaresInteres;
             this.bttnLugares.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnLugares.Location = new System.Drawing.Point(0, 460);
             this.bttnLugares.Name = "bttnLugares";
@@ -465,7 +362,7 @@
             this.bttnCentroNormas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCentroNormas.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCentroNormas.ForeColor = System.Drawing.Color.White;
-            this.bttnCentroNormas.Image = global::PuntoDeInformacion.Properties.Resources.icons8_rules;
+//            this.bttnCentroNormas.Image = global::PuntoDeInformacion.Properties.Resources.iconNormas;
             this.bttnCentroNormas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCentroNormas.Location = new System.Drawing.Point(0, 160);
             this.bttnCentroNormas.Name = "bttnCentroNormas";
@@ -483,7 +380,7 @@
             this.bttnCentroCalendario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCentroCalendario.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCentroCalendario.ForeColor = System.Drawing.Color.White;
-            this.bttnCentroCalendario.Image = global::PuntoDeInformacion.Properties.Resources.icons8_book;
+//            this.bttnCentroCalendario.Image = global::PuntoDeInformacion.Properties.Resources.iconcalendarioEscolar;
             this.bttnCentroCalendario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCentroCalendario.Location = new System.Drawing.Point(0, 120);
             this.bttnCentroCalendario.Name = "bttnCentroCalendario";
@@ -501,7 +398,7 @@
             this.bttnCentroUbicate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCentroUbicate.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCentroUbicate.ForeColor = System.Drawing.Color.White;
-            this.bttnCentroUbicate.Image = global::PuntoDeInformacion.Properties.Resources.icons8_marker;
+//            this.bttnCentroUbicate.Image = global::PuntoDeInformacion.Properties.Resources.iconUbicate;
             this.bttnCentroUbicate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCentroUbicate.Location = new System.Drawing.Point(0, 80);
             this.bttnCentroUbicate.Name = "bttnCentroUbicate";
@@ -519,7 +416,7 @@
             this.bttnCentroED.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCentroED.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCentroED.ForeColor = System.Drawing.Color.White;
-            this.bttnCentroED.Image = global::PuntoDeInformacion.Properties.Resources.icons8_organization_chart_people;
+//            this.bttnCentroED.Image = global::PuntoDeInformacion.Properties.Resources.iconEquipoDirectivo;
             this.bttnCentroED.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCentroED.Location = new System.Drawing.Point(0, 40);
             this.bttnCentroED.Name = "bttnCentroED";
@@ -537,7 +434,7 @@
             this.bttnCentroWeb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCentroWeb.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCentroWeb.ForeColor = System.Drawing.Color.White;
-            this.bttnCentroWeb.Image = global::PuntoDeInformacion.Properties.Resources.icons8_website;
+//            this.bttnCentroWeb.Image = global::PuntoDeInformacion.Properties.Resources.iconWebDelCentro;
             this.bttnCentroWeb.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCentroWeb.Location = new System.Drawing.Point(0, 0);
             this.bttnCentroWeb.Name = "bttnCentroWeb";
@@ -556,7 +453,7 @@
             this.bttnCentro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnCentro.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnCentro.ForeColor = System.Drawing.Color.White;
-            this.bttnCentro.Image = global::PuntoDeInformacion.Properties.Resources.icons8_school;
+//            this.bttnCentro.Image = global::PuntoDeInformacion.Properties.Resources.iconCentro;
             this.bttnCentro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnCentro.Location = new System.Drawing.Point(0, 194);
             this.bttnCentro.Name = "bttnCentro";
@@ -575,7 +472,7 @@
             this.bttnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttnInicio.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnInicio.ForeColor = System.Drawing.Color.White;
-            this.bttnInicio.Image = global::PuntoDeInformacion.Properties.Resources.icons8_home;
+//            this.bttnInicio.Image = global::PuntoDeInformacion.Properties.Resources.iconInicio;
             this.bttnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bttnInicio.Location = new System.Drawing.Point(0, 149);
             this.bttnInicio.Name = "bttnInicio";
@@ -589,7 +486,7 @@
             // imgLogo
             // 
             this.imgLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.imgLogo.Image = global::PuntoDeInformacion.Properties.Resources.logo_CristoRey_Final;
+//            this.imgLogo.Image = global::PuntoDeInformacion.Properties.Resources.logo_CristoRey;
             this.imgLogo.Location = new System.Drawing.Point(0, 0);
             this.imgLogo.Name = "imgLogo";
             this.imgLogo.Size = new System.Drawing.Size(233, 149);
@@ -601,16 +498,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1273, 655);
-            this.Controls.Add(this.calendarioEscolar2);
-            this.Controls.Add(this.sugerencias1);
-            this.Controls.Add(this.lugaresDeInteres2);
-            this.Controls.Add(this.normasCentro1);
-            this.Controls.Add(this.web2);
-            this.Controls.Add(this.equipoDirectivo2);
-            this.Controls.Add(this.paginaCentro3);
-            this.Controls.Add(this.paginaCentro2);
-            this.Controls.Add(this.inicio2);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1235, 693);
             this.Controls.Add(this.panelRedes);
             this.Controls.Add(this.panelSideMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -662,21 +551,22 @@
         private System.Windows.Forms.PictureBox imgExitB;
         private System.Windows.Forms.PictureBox imgMax;
         private System.Windows.Forms.PictureBox imgMin;
-        private LugaresDeInteres lugaresDeInteres1;
-        private Inicio inicio1;
-        //private PaginaCentro paginaCentro1;
-        private EquipoDirectivo equipoDirectivo1;
-        private web web1;
-        //private CalendarioEscolar calendarioEscolar1;
-        private Inicio inicio2;
-        private PaginaCentro paginaCentro2;
-        private PaginaCentro paginaCentro3;
-        private EquipoDirectivo equipoDirectivo2;
-        private web web2;
-        private NormasCentro normasCentro1;
-        private LugaresDeInteres lugaresDeInteres2;
-        private Sugerencias sugerencias1;
-        private CalendarioEscolar calendarioEscolar2;
+        private System.Windows.Forms.Button bttnAdmin;
+        //private LugaresDeInteres lugaresDeInteres1;
+        //private Inicio inicio1;
+        ////private PaginaCentro paginaCentro1;
+        //private EquipoDirectivo equipoDirectivo1;
+        //private web web1;
+        ////private CalendarioEscolar calendarioEscolar1;
+        //private Inicio inicio2;
+        //private PaginaCentro paginaCentro2;
+        //private PaginaCentro paginaCentro3;
+        //private EquipoDirectivo equipoDirectivo2;
+        //private web web2;
+        //private NormasCentro normasCentro1;
+        //private LugaresDeInteres lugaresDeInteres2;
+        //private Sugerencias sugerencias1;
+        //private CalendarioEscolar calendarioEscolar2;
     }
 }
 

@@ -75,5 +75,25 @@ namespace PuntoDeInformacion
         {
 
         }
+
+        private void pnlMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelWebBrowserMaps_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
