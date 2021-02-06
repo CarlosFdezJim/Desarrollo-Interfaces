@@ -15,7 +15,11 @@ namespace PuntoDeInformacionCristoRey
         public PaginaWebCentro()
         {
             InitializeComponent();
+
+            //Quitamos los errores de javascript que da la página por incompatibiliadad
             webBrowser1.ScriptErrorsSuppressed = true;
+
+            //Introducimos la página que queremos que carge.
             webBrowser1.Navigate("https://www.cescristorey.com/");
         }
     }

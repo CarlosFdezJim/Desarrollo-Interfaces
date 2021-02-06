@@ -19,7 +19,10 @@ namespace PuntoDeInformacionCristoRey
 
         private void HoraFecha_Tick(object sender, EventArgs e)
         {
+            //Actualiza la hora en el label cogiendola del sistema.
             lblHora.Text = DateTime.Now.ToLongTimeString();
+
+            //Actualiza la hora en el label cogiendola del sistema.
             lblFecha.Text = DateTime.Now.ToLongDateString();
         }
     }

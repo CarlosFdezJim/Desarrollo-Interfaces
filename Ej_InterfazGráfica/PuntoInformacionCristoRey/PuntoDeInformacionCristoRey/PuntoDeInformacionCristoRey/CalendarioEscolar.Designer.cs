@@ -35,6 +35,7 @@
             // 
             // axAcroPDF1
             // 
+            this.axAcroPDF1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.axAcroPDF1.Enabled = true;
             this.axAcroPDF1.Location = new System.Drawing.Point(0, 0);
             this.axAcroPDF1.Name = "axAcroPDF1";

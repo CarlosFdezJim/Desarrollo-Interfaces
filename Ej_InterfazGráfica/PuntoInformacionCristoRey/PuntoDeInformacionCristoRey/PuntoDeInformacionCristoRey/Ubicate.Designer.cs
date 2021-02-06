@@ -38,10 +38,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.bttnEsconderMenu = new System.Windows.Forms.PictureBox();
             this.panelWebBrowserMaps = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlMenu.SuspendLayout();
             this.pnlBttnMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bttnEsconderMenu)).BeginInit();
             this.panelWebBrowserMaps.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // webBrowserWeb
@@ -56,11 +61,13 @@
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(179)))), ((int)(((byte)(187)))));
+            this.pnlMenu.Controls.Add(this.panel3);
             this.pnlMenu.Controls.Add(this.bttnPlantaExteriores);
             this.pnlMenu.Controls.Add(this.bttnPlanta3);
             this.pnlMenu.Controls.Add(this.bttnPlanta2);
             this.pnlMenu.Controls.Add(this.bttnPlanta1);
             this.pnlMenu.Controls.Add(this.pnlBttnMenu);
+            this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
             this.pnlMenu.Size = new System.Drawing.Size(170, 605);
@@ -138,6 +145,7 @@
             // pnlBttnMenu
             // 
             this.pnlBttnMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(179)))), ((int)(((byte)(187)))));
+            this.pnlBttnMenu.Controls.Add(this.panel2);
             this.pnlBttnMenu.Controls.Add(this.panel1);
             this.pnlBttnMenu.Controls.Add(this.bttnEsconderMenu);
             this.pnlBttnMenu.Dock = System.Windows.Forms.DockStyle.Top;
@@ -174,6 +182,36 @@
             this.panelWebBrowserMaps.Size = new System.Drawing.Size(1023, 605);
             this.panelWebBrowserMaps.TabIndex = 4;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(179)))), ((int)(((byte)(187)))));
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(170, 100);
+            this.panel2.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel3.Location = new System.Drawing.Point(0, 519);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(170, 86);
+            this.panel3.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PuntoDeInformacionCristoRey.Properties.Resources.icons8_menu_1;
+            this.pictureBox1.Location = new System.Drawing.Point(14, 23);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            // 
             // Ubicate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -186,6 +224,8 @@
             this.pnlBttnMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bttnEsconderMenu)).EndInit();
             this.panelWebBrowserMaps.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -202,5 +242,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox bttnEsconderMenu;
         private System.Windows.Forms.Panel panelWebBrowserMaps;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -58,7 +58,7 @@ namespace PuntoDeInformacionCristoRey
             gMapControl1.MaxZoom = 19;
             gMapControl1.Zoom = 35;
             gMapControl1.AutoScroll = true;
-            ShowLocations(LatInicial, LngInicial, "CES CRISTO REY");
+            ShowLocationCristoRey();
         }
 
         private void bttnCafeterias_Click(object sender, EventArgs e)
@@ -95,6 +95,23 @@ namespace PuntoDeInformacionCristoRey
             //Agregamos un toolTip de texto a los marcadores
             marker.ToolTipMode = MarkerTooltipMode.OnMouseOver;
             marker.ToolTipText = string.Format(nombre);
+
+            //Agregamos al mapa el marcador
+            gMapControl1.Overlays.Add(markerOverlay);
+        }
+
+        public void ShowLocationCristoRey()
+        {
+            //Marcador
+            markerOverlay = new GMapOverlay();
+            marker = new GMarkerGoogle(new PointLatLng(LatInicial, LngInicial), GMarkerGoogleType.red);
+
+            //Agregamos el marcador
+            markerOverlay.Markers.Add(marker);
+
+            //Agregamos un toolTip de texto a los marcadores
+            marker.ToolTipMode = MarkerTooltipMode.Always;
+            marker.ToolTipText = string.Format("CES CRISTO REY");
 
             //Agregamos al mapa el marcador
             gMapControl1.Overlays.Add(markerOverlay);

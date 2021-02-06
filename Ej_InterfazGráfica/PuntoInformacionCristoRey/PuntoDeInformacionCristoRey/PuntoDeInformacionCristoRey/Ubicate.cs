@@ -15,6 +15,8 @@ namespace PuntoDeInformacionCristoRey
         public Ubicate()
         {
             InitializeComponent();
+
+            //Iniciamos con una imagen predeterminada.
             webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_001.png");
         }
 
@@ -40,6 +42,36 @@ namespace PuntoDeInformacionCristoRey
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            //Botón que esconde el menu y lo vuelve a su estado normal.
+            if (pnlMenu.Width == 170)
+            {
+                pnlMenu.Width = 60;
+                bttnPlanta1.Text = "";
+                bttnPlanta1.ImageAlign = ContentAlignment.MiddleCenter;
+                bttnPlanta2.Text = "";
+                bttnPlanta2.ImageAlign = ContentAlignment.MiddleCenter;
+                bttnPlanta3.Text = "";
+                bttnPlanta3.ImageAlign = ContentAlignment.MiddleCenter;
+                bttnPlantaExteriores.Text = "";
+                bttnPlantaExteriores.ImageAlign = ContentAlignment.MiddleCenter;
+            }
+            else
+            {
+                pnlMenu.Width = 170;
+                bttnPlanta1.Text = "1º PLANTA";
+                bttnPlanta1.ImageAlign = ContentAlignment.MiddleLeft;
+                bttnPlanta2.Text = "2º PLANTA";
+                bttnPlanta2.ImageAlign = ContentAlignment.MiddleLeft;
+                bttnPlanta3.Text = "3º PLANTA";
+                bttnPlanta3.ImageAlign = ContentAlignment.MiddleLeft;
+                bttnPlantaExteriores.Text = "EXTERIORES";
+                bttnPlantaExteriores.ImageAlign = ContentAlignment.MiddleLeft;
+            }
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            //Botón que esconde el menu y lo vuelve a su estado normal.
             if (pnlMenu.Width == 170)
             {
                 pnlMenu.Width = 60;

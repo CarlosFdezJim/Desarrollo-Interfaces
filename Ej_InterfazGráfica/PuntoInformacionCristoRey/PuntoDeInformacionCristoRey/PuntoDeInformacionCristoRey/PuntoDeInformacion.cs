@@ -16,11 +16,15 @@ namespace PuntoDeInformacionCristoRey
         public PuntoDeInformación()
         {
             InitializeComponent();
+            //Cargamos un control de usuarios predeterminado.
             paginaInicio1.BringToFront();
+            //Dejamos escondidos los submenús
             customizeDesing();
         }
 
         #region DLL
+
+        //Añadimos las DLL para poder mover la ventana aunque no tenga los bordes de windows.
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
 

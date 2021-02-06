@@ -160,7 +160,6 @@
             // 
             this.imgLogo.AccessibleDescription = "Logo del centro";
             this.imgLogo.AccessibleName = "Logo Cristo Rey Granada";
-            this.imgLogo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.imgLogo.Image = global::PuntoDeInformacionCristoRey.Properties.Resources.logo_CristoRey_Final;
             this.imgLogo.Location = new System.Drawing.Point(0, 0);
             this.imgLogo.Name = "imgLogo";
@@ -448,7 +447,7 @@
             this.bttnHorarios.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.bttnHorarios.Size = new System.Drawing.Size(233, 45);
             this.bttnHorarios.TabIndex = 5;
-            this.bttnHorarios.Text = "     HORARIOS";
+            this.bttnHorarios.Text = "CURSOS";
             this.bttnHorarios.UseVisualStyleBackColor = true;
             this.bttnHorarios.Click += new System.EventHandler(this.bttnHorarios_Click);
             // 
