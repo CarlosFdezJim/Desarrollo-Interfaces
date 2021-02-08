@@ -15,14 +15,6 @@ namespace PuntoDeInformacionCristoRey
         public Login()
         {
             InitializeComponent();
-            this.toolTip.SetToolTip(this.txtBoxUsuario,"Introduce tu nombre de usuario.");
-            this.toolTip.SetToolTip(this.txtBoxContrasena, "Introduce tu contraseña.");
-            this.toolTip.SetToolTip(this.bttnEnviar, "Entrar en el sistema.");
-        }
-
-        public void login()
-        {
-
         }
     }
 }

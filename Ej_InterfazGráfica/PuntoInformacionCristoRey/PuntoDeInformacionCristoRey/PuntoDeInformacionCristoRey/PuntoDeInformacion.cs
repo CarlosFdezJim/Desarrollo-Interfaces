@@ -182,7 +182,8 @@ namespace PuntoDeInformacionCristoRey
 
         private void bttnAdmin_Click(object sender, EventArgs e)
         {
-
+            admin1.Visible = true;
+            //login1.BringToFront();
         }
 
 

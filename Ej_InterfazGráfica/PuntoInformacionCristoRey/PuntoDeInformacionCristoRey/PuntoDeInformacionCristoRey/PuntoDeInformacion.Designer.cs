@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PuntoDeInformación));
             this.panelRedes = new System.Windows.Forms.Panel();
+            this.admin1 = new Administrador.Admin();
             this.imgExitB = new System.Windows.Forms.PictureBox();
             this.imgMax = new System.Windows.Forms.PictureBox();
             this.imgMin = new System.Windows.Forms.PictureBox();
@@ -80,6 +81,7 @@
             this.panelRedes.AccessibleDescription = "Barra superior";
             this.panelRedes.AccessibleName = "Barra superior";
             this.panelRedes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(104)))), ((int)(((byte)(120)))));
+            this.panelRedes.Controls.Add(this.admin1);
             this.panelRedes.Controls.Add(this.imgExitB);
             this.panelRedes.Controls.Add(this.imgMax);
             this.panelRedes.Controls.Add(this.imgMin);
@@ -87,9 +89,18 @@
             this.panelRedes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelRedes.Location = new System.Drawing.Point(250, 0);
             this.panelRedes.Name = "panelRedes";
-            this.panelRedes.Size = new System.Drawing.Size(1035, 37);
+            this.panelRedes.Size = new System.Drawing.Size(1035, 44);
             this.panelRedes.TabIndex = 3;
             this.panelRedes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelRedes_MouseDown);
+            // 
+            // admin1
+            // 
+            this.admin1.BackColor = System.Drawing.Color.Transparent;
+            this.admin1.Location = new System.Drawing.Point(0, 0);
+            this.admin1.Name = "admin1";
+            this.admin1.Size = new System.Drawing.Size(51, 39);
+            this.admin1.TabIndex = 5;
+            this.admin1.Visible = false;
             // 
             // imgExitB
             // 
@@ -537,68 +548,68 @@
             // calendarioEscolar1
             // 
             this.calendarioEscolar1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.calendarioEscolar1.Location = new System.Drawing.Point(250, 37);
+            this.calendarioEscolar1.Location = new System.Drawing.Point(250, 44);
             this.calendarioEscolar1.Name = "calendarioEscolar1";
-            this.calendarioEscolar1.Size = new System.Drawing.Size(1035, 617);
+            this.calendarioEscolar1.Size = new System.Drawing.Size(1035, 610);
             this.calendarioEscolar1.TabIndex = 11;
             // 
             // sugerencias1
             // 
             this.sugerencias1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(179)))), ((int)(((byte)(187)))));
             this.sugerencias1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sugerencias1.Location = new System.Drawing.Point(250, 37);
+            this.sugerencias1.Location = new System.Drawing.Point(250, 44);
             this.sugerencias1.Name = "sugerencias1";
-            this.sugerencias1.Size = new System.Drawing.Size(1035, 617);
+            this.sugerencias1.Size = new System.Drawing.Size(1035, 610);
             this.sugerencias1.TabIndex = 10;
             // 
             // ubicacionesInteres1
             // 
             this.ubicacionesInteres1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ubicacionesInteres1.Location = new System.Drawing.Point(250, 37);
+            this.ubicacionesInteres1.Location = new System.Drawing.Point(250, 44);
             this.ubicacionesInteres1.Name = "ubicacionesInteres1";
-            this.ubicacionesInteres1.Size = new System.Drawing.Size(1035, 617);
+            this.ubicacionesInteres1.Size = new System.Drawing.Size(1035, 610);
             this.ubicacionesInteres1.TabIndex = 9;
             // 
             // normasCentro1
             // 
             this.normasCentro1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.normasCentro1.Location = new System.Drawing.Point(250, 37);
+            this.normasCentro1.Location = new System.Drawing.Point(250, 44);
             this.normasCentro1.Name = "normasCentro1";
-            this.normasCentro1.Size = new System.Drawing.Size(1035, 617);
+            this.normasCentro1.Size = new System.Drawing.Size(1035, 610);
             this.normasCentro1.TabIndex = 8;
             // 
             // ubicate1
             // 
             this.ubicate1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ubicate1.Location = new System.Drawing.Point(250, 37);
+            this.ubicate1.Location = new System.Drawing.Point(250, 44);
             this.ubicate1.Name = "ubicate1";
-            this.ubicate1.Size = new System.Drawing.Size(1035, 617);
+            this.ubicate1.Size = new System.Drawing.Size(1035, 610);
             this.ubicate1.TabIndex = 7;
             // 
             // equipoDirectivo1
             // 
             this.equipoDirectivo1.BackColor = System.Drawing.Color.White;
             this.equipoDirectivo1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.equipoDirectivo1.Location = new System.Drawing.Point(250, 37);
+            this.equipoDirectivo1.Location = new System.Drawing.Point(250, 44);
             this.equipoDirectivo1.Name = "equipoDirectivo1";
-            this.equipoDirectivo1.Size = new System.Drawing.Size(1035, 617);
+            this.equipoDirectivo1.Size = new System.Drawing.Size(1035, 610);
             this.equipoDirectivo1.TabIndex = 6;
             // 
             // paginaWebCentro1
             // 
             this.paginaWebCentro1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paginaWebCentro1.Location = new System.Drawing.Point(250, 37);
+            this.paginaWebCentro1.Location = new System.Drawing.Point(250, 44);
             this.paginaWebCentro1.Name = "paginaWebCentro1";
-            this.paginaWebCentro1.Size = new System.Drawing.Size(1035, 617);
+            this.paginaWebCentro1.Size = new System.Drawing.Size(1035, 610);
             this.paginaWebCentro1.TabIndex = 5;
             // 
             // paginaInicio1
             // 
             this.paginaInicio1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
             this.paginaInicio1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.paginaInicio1.Location = new System.Drawing.Point(250, 37);
+            this.paginaInicio1.Location = new System.Drawing.Point(250, 44);
             this.paginaInicio1.Name = "paginaInicio1";
-            this.paginaInicio1.Size = new System.Drawing.Size(1035, 617);
+            this.paginaInicio1.Size = new System.Drawing.Size(1035, 610);
             this.paginaInicio1.TabIndex = 4;
             // 
             // PuntoDeInformación
@@ -673,6 +684,7 @@
         private UbicacionesInteres ubicacionesInteres1;
         private Sugerencias sugerencias1;
         private CalendarioEscolar calendarioEscolar1;
+        private Administrador.Admin admin1;
     }
 }
 

@@ -28,126 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.txtBoxUsuario = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.txtBoxContrasena = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bttnEnviar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.lnkRegistro = new System.Windows.Forms.LinkLabel();
-            this.lblRegistro = new System.Windows.Forms.Label();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.lblContrasena = new System.Windows.Forms.Label();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // bunifuElipse1
+            // lblUsuario
             // 
-            this.bunifuElipse1.ElipseRadius = 20;
-            this.bunifuElipse1.TargetControl = this;
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario.Location = new System.Drawing.Point(224, 179);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(79, 22);
+            this.lblUsuario.TabIndex = 0;
+            this.lblUsuario.Text = "USUARIO";
             // 
-            // txtBoxUsuario
+            // lblContrasena
             // 
-            this.txtBoxUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtBoxUsuario.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtBoxUsuario.HintForeColor = System.Drawing.Color.Empty;
-            this.txtBoxUsuario.HintText = "";
-            this.txtBoxUsuario.isPassword = false;
-            this.txtBoxUsuario.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txtBoxUsuario.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtBoxUsuario.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txtBoxUsuario.LineThickness = 3;
-            this.txtBoxUsuario.Location = new System.Drawing.Point(197, 131);
-            this.txtBoxUsuario.Margin = new System.Windows.Forms.Padding(4);
-            this.txtBoxUsuario.Name = "txtBoxUsuario";
-            this.txtBoxUsuario.Size = new System.Drawing.Size(332, 37);
-            this.txtBoxUsuario.TabIndex = 3;
-            this.txtBoxUsuario.Text = "USUARIO";
-            this.txtBoxUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lblContrasena.AutoSize = true;
+            this.lblContrasena.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContrasena.ForeColor = System.Drawing.Color.White;
+            this.lblContrasena.Location = new System.Drawing.Point(201, 270);
+            this.lblContrasena.Name = "lblContrasena";
+            this.lblContrasena.Size = new System.Drawing.Size(113, 22);
+            this.lblContrasena.TabIndex = 1;
+            this.lblContrasena.Text = "CONTRASEÑA";
             // 
-            // txtBoxContrasena
+            // txtUser
             // 
-            this.txtBoxContrasena.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtBoxContrasena.Font = new System.Drawing.Font("Open Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxContrasena.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtBoxContrasena.HintForeColor = System.Drawing.Color.Empty;
-            this.txtBoxContrasena.HintText = "";
-            this.txtBoxContrasena.isPassword = true;
-            this.txtBoxContrasena.LineFocusedColor = System.Drawing.Color.Blue;
-            this.txtBoxContrasena.LineIdleColor = System.Drawing.Color.Gray;
-            this.txtBoxContrasena.LineMouseHoverColor = System.Drawing.Color.Blue;
-            this.txtBoxContrasena.LineThickness = 3;
-            this.txtBoxContrasena.Location = new System.Drawing.Point(197, 222);
-            this.txtBoxContrasena.Margin = new System.Windows.Forms.Padding(4);
-            this.txtBoxContrasena.Name = "txtBoxContrasena";
-            this.txtBoxContrasena.Size = new System.Drawing.Size(332, 37);
-            this.txtBoxContrasena.TabIndex = 4;
-            this.txtBoxContrasena.Text = "CONTRASEÑA";
-            this.txtBoxContrasena.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUser.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.Location = new System.Drawing.Point(334, 169);
+            this.txtUser.Multiline = true;
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(237, 30);
+            this.txtUser.TabIndex = 2;
             // 
-            // bttnEnviar
+            // button1
             // 
-            this.bttnEnviar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bttnEnviar.BackColor = System.Drawing.Color.Gray;
-            this.bttnEnviar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bttnEnviar.BorderRadius = 0;
-            this.bttnEnviar.ButtonText = "ENVIAR";
-            this.bttnEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bttnEnviar.DisabledColor = System.Drawing.Color.Gray;
-            this.bttnEnviar.Iconcolor = System.Drawing.Color.Transparent;
-            this.bttnEnviar.Iconimage = null;
-            this.bttnEnviar.Iconimage_right = null;
-            this.bttnEnviar.Iconimage_right_Selected = null;
-            this.bttnEnviar.Iconimage_Selected = null;
-            this.bttnEnviar.IconMarginLeft = 0;
-            this.bttnEnviar.IconMarginRight = 0;
-            this.bttnEnviar.IconRightVisible = true;
-            this.bttnEnviar.IconRightZoom = 0D;
-            this.bttnEnviar.IconVisible = true;
-            this.bttnEnviar.IconZoom = 90D;
-            this.bttnEnviar.IsTab = false;
-            this.bttnEnviar.Location = new System.Drawing.Point(254, 287);
-            this.bttnEnviar.Name = "bttnEnviar";
-            this.bttnEnviar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bttnEnviar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bttnEnviar.OnHoverTextColor = System.Drawing.Color.White;
-            this.bttnEnviar.selected = false;
-            this.bttnEnviar.Size = new System.Drawing.Size(189, 45);
-            this.bttnEnviar.TabIndex = 5;
-            this.bttnEnviar.Text = "ENVIAR";
-            this.bttnEnviar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bttnEnviar.Textcolor = System.Drawing.Color.White;
-            this.bttnEnviar.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(361, 332);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 47);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "ENVIAR";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // lnkRegistro
+            // label1
             // 
-            this.lnkRegistro.AutoSize = true;
-            this.lnkRegistro.Location = new System.Drawing.Point(397, 373);
-            this.lnkRegistro.Name = "lnkRegistro";
-            this.lnkRegistro.Size = new System.Drawing.Size(32, 13);
-            this.lnkRegistro.TabIndex = 6;
-            this.lnkRegistro.TabStop = true;
-            this.lnkRegistro.Text = " aquí";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(354, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(149, 37);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "REGISTRO";
             // 
-            // lblRegistro
+            // txtPass
             // 
-            this.lblRegistro.AutoSize = true;
-            this.lblRegistro.Location = new System.Drawing.Point(227, 373);
-            this.lblRegistro.Name = "lblRegistro";
-            this.lblRegistro.Size = new System.Drawing.Size(174, 13);
-            this.lblRegistro.TabIndex = 7;
-            this.lblRegistro.Text = "¿Aún no tienes cuenta? Registrate ";
+            this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPass.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Location = new System.Drawing.Point(334, 261);
+            this.txtPass.Multiline = true;
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(237, 29);
+            this.txtPass.TabIndex = 8;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(104)))), ((int)(((byte)(120)))));
-            this.Controls.Add(this.lblRegistro);
-            this.Controls.Add(this.lnkRegistro);
-            this.Controls.Add(this.bttnEnviar);
-            this.Controls.Add(this.txtBoxContrasena);
-            this.Controls.Add(this.txtBoxUsuario);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtUser);
+            this.Controls.Add(this.lblContrasena);
+            this.Controls.Add(this.lblUsuario);
+            this.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Login";
-            this.Size = new System.Drawing.Size(739, 409);
+            this.Size = new System.Drawing.Size(848, 487);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -155,12 +123,11 @@
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtBoxContrasena;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox txtBoxUsuario;
-        private Bunifu.Framework.UI.BunifuFlatButton bttnEnviar;
-        private System.Windows.Forms.Label lblRegistro;
-        private System.Windows.Forms.LinkLabel lnkRegistro;
-        private System.Windows.Forms.ToolTip toolTip;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.Label lblContrasena;
+        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtPass;
     }
 }
