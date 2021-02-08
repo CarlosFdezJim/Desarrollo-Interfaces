@@ -309,6 +309,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="iconPuntoDeInformacion.ico" />
+    <None Include="Resources\iconAyuda.ico" />
+    <None Include="Resources\matrix.gif" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

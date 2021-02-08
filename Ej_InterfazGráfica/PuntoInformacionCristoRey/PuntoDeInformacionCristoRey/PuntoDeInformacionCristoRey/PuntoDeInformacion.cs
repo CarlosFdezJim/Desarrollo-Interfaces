@@ -181,15 +181,59 @@ namespace PuntoDeInformacionCristoRey
         }
 
         private void bttnAdmin_Click(object sender, EventArgs e)
-        {
-            admin1.Visible = true;
-            //login1.BringToFront();
+        {   
+            login1.BringToFront();
         }
 
+        public void EnableAdmin()
+        {
+            equipoDirectivo1.BringToFront();
+            admin1.Visible = true;
+            lblDesactivarAdmin.Visible = true;
+            bttnInicio.Enabled = false;
+            bttnCentroWeb.Enabled = false;
+            bttnCentroUbicate.Enabled = false;
+            bttnCentroED.Enabled = true;
+            bttnCentroCalendario.Enabled = false;
+            bttnCentroNormas.Enabled = false;
+            bttnLugares.Enabled = false;
+            bttnCitaPrevia.Enabled = false;
+            bttnHorarios.Enabled = false;
+            bttnSugerencias.Enabled = false;
+        }
+        public void DisableAdmin()
+        {
+            admin1.Visible = false;
+            lblDesactivarAdmin.Visible = false;
+            lblDesactivarAdmin.Visible = true;
+            bttnInicio.Enabled = true;
+            bttnCentroWeb.Enabled = true;
+            bttnCentroUbicate.Enabled = true;
+            bttnCentroED.Enabled = true;
+            bttnCentroCalendario.Enabled = true;
+            bttnCentroNormas.Enabled = true;
+            bttnLugares.Enabled = true;
+            bttnCitaPrevia.Enabled = true;
+            bttnHorarios.Enabled = true;
+            bttnSugerencias.Enabled = true;
+        }
 
 
         #endregion Menú
 
+        private void admin1_Load(object sender, EventArgs e)
+        {
+            
+        }
 
+        private void imgAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:/Users/carlo/Documents/HelpNDoc/Output/Crear documentación chm/Punto de informacion CES Cristo Rey.chm");
+        }
+
+        private void lblDesactivarAdmin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

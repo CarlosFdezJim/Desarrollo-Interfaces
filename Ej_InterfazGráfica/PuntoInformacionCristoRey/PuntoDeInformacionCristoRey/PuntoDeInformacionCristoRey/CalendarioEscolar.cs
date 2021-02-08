@@ -13,6 +13,8 @@ namespace PuntoDeInformacionCristoRey
 {
     public partial class CalendarioEscolar : UserControl
     {
+
+        
         public CalendarioEscolar()
         {
             InitializeComponent();

@@ -30,8 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PuntoDeInformación));
             this.panelRedes = new System.Windows.Forms.Panel();
-            this.admin1 = new Administrador.Admin();
+            this.imgAyuda = new System.Windows.Forms.PictureBox();
             this.imgExitB = new System.Windows.Forms.PictureBox();
+            this.admin1 = new Administrador.Admin();
             this.imgMax = new System.Windows.Forms.PictureBox();
             this.imgMin = new System.Windows.Forms.PictureBox();
             this.imgExitR = new System.Windows.Forms.PictureBox();
@@ -64,7 +65,10 @@
             this.equipoDirectivo1 = new PuntoDeInformacionCristoRey.EquipoDirectivo();
             this.paginaWebCentro1 = new PuntoDeInformacionCristoRey.PaginaWebCentro();
             this.paginaInicio1 = new PuntoDeInformacionCristoRey.PaginaInicio();
+            this.login1 = new PuntoDeInformacionCristoRey.Login();
+            this.lblDesactivarAdmin = new System.Windows.Forms.Label();
             this.panelRedes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAyuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgExitB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMin)).BeginInit();
@@ -81,8 +85,10 @@
             this.panelRedes.AccessibleDescription = "Barra superior";
             this.panelRedes.AccessibleName = "Barra superior";
             this.panelRedes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(104)))), ((int)(((byte)(120)))));
-            this.panelRedes.Controls.Add(this.admin1);
+            this.panelRedes.Controls.Add(this.lblDesactivarAdmin);
+            this.panelRedes.Controls.Add(this.imgAyuda);
             this.panelRedes.Controls.Add(this.imgExitB);
+            this.panelRedes.Controls.Add(this.admin1);
             this.panelRedes.Controls.Add(this.imgMax);
             this.panelRedes.Controls.Add(this.imgMin);
             this.panelRedes.Controls.Add(this.imgExitR);
@@ -93,14 +99,20 @@
             this.panelRedes.TabIndex = 3;
             this.panelRedes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelRedes_MouseDown);
             // 
-            // admin1
+            // imgAyuda
             // 
-            this.admin1.BackColor = System.Drawing.Color.Transparent;
-            this.admin1.Location = new System.Drawing.Point(0, 0);
-            this.admin1.Name = "admin1";
-            this.admin1.Size = new System.Drawing.Size(51, 39);
-            this.admin1.TabIndex = 5;
-            this.admin1.Visible = false;
+            this.imgAyuda.AccessibleDescription = "Botón para maximizar la pantalla";
+            this.imgAyuda.AccessibleName = "Botón Maximizar";
+            this.imgAyuda.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.imgAyuda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.imgAyuda.Image = global::PuntoDeInformacionCristoRey.Properties.Resources.iconAyuda;
+            this.imgAyuda.Location = new System.Drawing.Point(897, 10);
+            this.imgAyuda.Name = "imgAyuda";
+            this.imgAyuda.Size = new System.Drawing.Size(30, 24);
+            this.imgAyuda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgAyuda.TabIndex = 6;
+            this.imgAyuda.TabStop = false;
+            this.imgAyuda.Click += new System.EventHandler(this.imgAyuda_Click);
             // 
             // imgExitB
             // 
@@ -116,6 +128,16 @@
             this.imgExitB.TabIndex = 3;
             this.imgExitB.TabStop = false;
             this.imgExitB.Click += new System.EventHandler(this.imgExitB_Click);
+            // 
+            // admin1
+            // 
+            this.admin1.BackColor = System.Drawing.Color.Transparent;
+            this.admin1.Location = new System.Drawing.Point(6, 2);
+            this.admin1.Name = "admin1";
+            this.admin1.Size = new System.Drawing.Size(51, 39);
+            this.admin1.TabIndex = 5;
+            this.admin1.Visible = false;
+            this.admin1.Load += new System.EventHandler(this.admin1_Load);
             // 
             // imgMax
             // 
@@ -612,6 +634,29 @@
             this.paginaInicio1.Size = new System.Drawing.Size(1035, 610);
             this.paginaInicio1.TabIndex = 4;
             // 
+            // login1
+            // 
+            this.login1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(167)))), ((int)(((byte)(209)))));
+            this.login1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.login1.Font = new System.Drawing.Font("Open Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login1.Location = new System.Drawing.Point(250, 44);
+            this.login1.Name = "login1";
+            this.login1.Size = new System.Drawing.Size(1035, 610);
+            this.login1.TabIndex = 12;
+            // 
+            // lblDesactivarAdmin
+            // 
+            this.lblDesactivarAdmin.AutoSize = true;
+            this.lblDesactivarAdmin.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesactivarAdmin.ForeColor = System.Drawing.Color.White;
+            this.lblDesactivarAdmin.Location = new System.Drawing.Point(63, 13);
+            this.lblDesactivarAdmin.Name = "lblDesactivarAdmin";
+            this.lblDesactivarAdmin.Size = new System.Drawing.Size(289, 22);
+            this.lblDesactivarAdmin.TabIndex = 7;
+            this.lblDesactivarAdmin.Text = "DESACTIVAR MODO ADMINISTRADOR";
+            this.lblDesactivarAdmin.Visible = false;
+            this.lblDesactivarAdmin.Click += new System.EventHandler(this.lblDesactivarAdmin_Click);
+            // 
             // PuntoDeInformación
             // 
             this.AccessibleDescription = "Menú principal";
@@ -619,6 +664,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1285, 654);
+            this.Controls.Add(this.login1);
             this.Controls.Add(this.calendarioEscolar1);
             this.Controls.Add(this.sugerencias1);
             this.Controls.Add(this.ubicacionesInteres1);
@@ -635,6 +681,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CES CRISTO REY";
             this.panelRedes.ResumeLayout(false);
+            this.panelRedes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgAyuda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgExitB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgMin)).EndInit();
@@ -685,6 +733,9 @@
         private Sugerencias sugerencias1;
         private CalendarioEscolar calendarioEscolar1;
         private Administrador.Admin admin1;
+        private Login login1;
+        private System.Windows.Forms.PictureBox imgAyuda;
+        private System.Windows.Forms.Label lblDesactivarAdmin;
     }
 }
 

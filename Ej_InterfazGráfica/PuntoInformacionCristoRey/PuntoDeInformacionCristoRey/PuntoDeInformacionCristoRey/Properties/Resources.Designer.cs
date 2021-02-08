@@ -83,6 +83,16 @@ namespace PuntoDeInformacionCristoRey.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconAyuda {
+            get {
+                object obj = ResourceManager.GetObject("iconAyuda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconcalendarioEscolar {
             get {
                 object obj = ResourceManager.GetObject("iconcalendarioEscolar", resourceCulture);
@@ -366,6 +376,16 @@ namespace PuntoDeInformacionCristoRey.Properties {
         internal static System.Drawing.Bitmap logo_CristoRey_Movil {
             get {
                 object obj = ResourceManager.GetObject("logo_CristoRey_Movil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap matrix {
+            get {
+                object obj = ResourceManager.GetObject("matrix", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
