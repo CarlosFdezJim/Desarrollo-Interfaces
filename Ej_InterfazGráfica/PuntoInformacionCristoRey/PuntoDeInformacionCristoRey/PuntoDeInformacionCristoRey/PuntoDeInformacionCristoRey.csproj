@@ -330,6 +330,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="iconPuntoDeInformacion.ico" />
+    <None Include="Resources\Planos_Centro_004.png" />
+    <None Include="Resources\Planos_Centro_003.png" />
+    <None Include="Resources\Planos_Centro_002.png" />
+    <None Include="Resources\Planos_Centro_001.png" />
     <None Include="Resources\iconAyuda.ico" />
     <None Include="Resources\matrix.gif" />
   </ItemGroup>

@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_3_3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="iconWebDelCentro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconWebDelCentro.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,11 +127,14 @@
   <data name="icons8_2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_2_2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconNormas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconNormas.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconMax1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMax1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconEquipoDirectivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconEquipoDirectivo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_1_3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconExit.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,9 +151,6 @@
   <data name="iconCitaPrevia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconCitaPrevia.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconOrientador" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconOrientador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8_e_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8_e_3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,11 +160,14 @@
   <data name="iconHorarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconHorarios.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconInicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconInicio.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconEquipoDirectivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconEquipoDirectivo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconNormas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconNormas.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconOrientador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconOrientador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconcalendarioEscolar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconcalendarioEscolar.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo_CristoRey_Movil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_CristoRey_Movil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,11 +181,17 @@
   <data name="iconSugerencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconSugerencias.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconAyuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconAyuda.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconSecretaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconSecretaria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconProfesor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconProfesor2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconInicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconInicio.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconLugaresInteres" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconLugaresInteres.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,14 +202,11 @@
   <data name="iconJefaturaEstudios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconJefaturaEstudios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconcalendarioEscolar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconcalendarioEscolar.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8_3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_3_3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconDirectora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconDirectora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8_1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_1_3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconAdmin.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,7 +220,16 @@
   <data name="iconMin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconMin.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconAyuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconAyuda.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Planos_Centro_001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Planos_Centro_001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planos_Centro_002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Planos_Centro_002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planos_Centro_003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Planos_Centro_003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Planos_Centro_004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Planos_Centro_004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

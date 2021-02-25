@@ -110,19 +110,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gyutcvJl/3SE7JsH8+Ckr8YvfzmvK1PKCQX1fum0ozM=</dsig:DigestValue>
+        <dsig:DigestValue>lfCeIg9UQXoTsHwZo7mL4am0Nv7wDaHwCCoXCbJNIi8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PuntoDeInformacionCristoRey.exe" size="4449248">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PuntoDeInformacionCristoRey.exe" size="4948448">
       <assemblyIdentity name="PuntoDeInformacionCristoRey" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>98l3kthV0R/P0dpwixVJuSpdqSoGX/uWAbGjKoYRJQc=</dsig:DigestValue>
+        <dsig:DigestValue>orkXm50s6nXt0Q80PnFSSAglVidFWJaOuH1J2Lw83zw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

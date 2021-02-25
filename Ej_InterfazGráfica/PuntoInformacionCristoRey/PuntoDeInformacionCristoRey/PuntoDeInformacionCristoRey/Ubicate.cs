@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PuntoDeInformacionCristoRey
 {
@@ -16,28 +17,40 @@ namespace PuntoDeInformacionCristoRey
         {
             InitializeComponent();
 
+            //String plano = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\Planos_Centro_001";
+            //System.IO.File.WriteAllBytes(plano, Properties.Resources.calendario);
+            //axAcroPDF1.LoadFile(openPDFFile);
             //Iniciamos con una imagen predeterminada.
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_001.png");
+            //webBrowserWeb.Url = new System.Uri(path);
+            //pictureBox.Image = Image.FromFile(@"Resources\Planos_Centro_001");
+
+            string path = Path.GetFullPath("..\\..\\Resources\\Planos_Centro_001.png");
+            pictureBoxPlanta1.Image = Image.FromFile(path);
+
         }
 
         private void bttnPlanta1_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_001.png");
+            string path = Path.GetFullPath("..\\..\\Resources\\Planos_Centro_001.png");
+            pictureBoxPlanta1.Image = Image.FromFile(path);
         }
 
         private void bttnPlanta2_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_002.png");
+            string path = Path.GetFullPath("..\\..\\Resources\\Planos_Centro_002.png");
+            pictureBoxPlanta1.Image = Image.FromFile(path);
         }
 
         private void bttnPlanta3_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_003.png");
+            string path = Path.GetFullPath("..\\..\\Resources\\Planos_Centro_003.png");
+            pictureBoxPlanta1.Image = Image.FromFile(path);
         }
 
         private void bttnPlantaExteriores_Click(object sender, EventArgs e)
         {
-            webBrowserWeb.Url = new System.Uri("C:/Users/carlo/Desktop/Planos_Centro_004.png");
+            string path = Path.GetFullPath("..\\..\\Resources\\Planos_Centro_004.png");
+            pictureBoxPlanta1.Image = Image.FromFile(path);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
