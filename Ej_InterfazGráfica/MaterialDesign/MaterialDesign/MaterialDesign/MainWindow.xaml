@@ -1,0 +1,115 @@
+﻿<Window x:Class="MaterialDesign.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{StaticResource MaterialDesignFont}"
+        xmlns:local="clr-namespace:MaterialDesign" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Tercera versión WPF Carlos Fedez" Height="462.5" Width="883">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.PopupBox.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Editar">
+                <MenuItem Header="_Cortar" Command="Cut">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ContentCut"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Copiar" Command="Copy">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ContentCopy"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Pegar" Command="Paste">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="ContentPaste"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar Style="{DynamicResource MaterialDesignToolBar}">
+                <Button ToolTip="Save">
+                    <materialDesign:PackIcon Kind="ContentSave"/>
+                </Button>
+                <Separator/>
+                <Button Command="Cut" ToolTip="Cut" ToolBar.OverflowMode="AsNeeded">
+                    <materialDesign:PackIcon Kind="ContentCut"/>
+                </Button>
+                <Button Command="Copy" ToolTip="Copy that stuff" ToolBar.OverflowMode="AsNeeded">
+                    <materialDesign:PackIcon Kind="ContentCopy"/>
+                </Button>
+                <Button Command="Paste" ToolTip="Paste some stuff" ToolBar.OverflowMode="AsNeeded">
+                    <materialDesign:PackIcon Kind="ContentPaste"/>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <Grid VerticalAlignment="Stretch" Margin="16">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center"/>
+            <TextBlock Grid.Column="1" Margin="442,29,0,12" VerticalAlignment="Center">Nombre:</TextBlock>
+            <TextBox Grid.Column="2" Margin="8 0 0 0" VerticalAlignment="Center"></TextBox>
+            <materialDesign:PopupBox Grid.Column="3" Margin="8 0 0 0" Style="{StaticResource MaterialDesignMultiFloatingActionAccentPopupBox}">
+                <materialDesign:PopupBox.ToggleCheckedContent>
+                    <materialDesign:PackIcon Kind="Pencil"/>
+                </materialDesign:PopupBox.ToggleCheckedContent>
+                <StackPanel>
+                    <Button>:)</Button>
+                    <Button>:(</Button>
+                </StackPanel>
+            </materialDesign:PopupBox>
+            <materialDesign:Card Grid.Row="1" Grid.ColumnSpan="4" Margin="16" materialDesign:ShadowAssist.ShadowDepth="Depth3" VerticalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal" Margin="16">
+                    <materialDesign:PackIcon Kind="Twitter" Height="64" Width="64"/>
+                    <TextBlock Margin="16 16 0 0" TextWrapping="Wrap">Hey, sigueme en twitter</TextBlock>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <materialDesign:ColorZone Grid.Row="2" Height="100" Mode="PrimaryDark" CornerRadius="8" materialDesign:ShadowAssist.ShadowDepth="Depth1" Grid.ColumnSpan="2" Margin="0,0,32,0">
+                <StackPanel Orientation="Horizontal" Margin="16">
+                    <materialDesign:PackIcon Kind="Twitter" Height="64" Width="64"/>
+                    <TextBlock Margin="16,16,0,30"
+                               MinWidth="120" TextWrapping="Wrap" Width="156">Hey, sigueme en twitter</TextBlock>
+                    <materialDesign:ColorZone Mode="Light" CornerRadius="2" materialDesign:ShadowAssist.ShadowDepth="Depth1" Height="58" Width="217">
+                        <StackPanel Orientation="Horizontal" Margin="16">
+                            <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center"/>
+                            <TextBox Margin="8,1,0,1" 
+                                     materialDesign:TextFieldAssist.SuffixText="Escribe un texto.."
+                                     materialDesign:TextFieldAssist.DecorationVisibility="Collapsed"
+                                     VerticalAlignment="Center"
+                                     BorderThickness="0"
+                                     MinWidth="120" Width="110"/>
+                            <Button Margin="8 0 0 0" Style="{DynamicResource MaterialDesignToolButton}"
+                                    VerticalAlignment="Center">
+                                <materialDesign:PackIcon Kind="Microphone"/>
+                            </Button>
+                        </StackPanel>
+                    </materialDesign:ColorZone>
+                </StackPanel>
+            </materialDesign:ColorZone>
+        </Grid>
+    </DockPanel>
+</Window>
